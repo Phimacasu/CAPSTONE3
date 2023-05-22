@@ -109,10 +109,6 @@ public class PlayerController : MonoBehaviour
                 
         }
 
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("Main Menu");
-        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
