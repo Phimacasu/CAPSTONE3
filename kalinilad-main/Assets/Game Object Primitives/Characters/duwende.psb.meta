@@ -10873,6 +10873,28 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 258, y: 479}
+  - name: Vibrance 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 959
+      y: 460
+      width: 0
+      height: 0
+    spriteID: ebd5139fa627c944aba4777d8092d992
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 555, y: -374}
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -10949,34 +10971,6 @@ ScriptedImporter:
     spriteID: 540fc8a54f41c924ea0b2958aaa84b6a
     layerID: 49
     mosaicPosition: {x: 451, y: 224}
-  - name: Arm-L
-    spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: 00000000000000000000000000000000
-    layerID: 46
-    mosaicPosition: {x: 0, y: 0}
-  - name: Layer 70
-    spriteName: Layer 70
-    isGroup: 0
-    parentIndex: 5
-    spriteID: 0f3f0703d49aca94da8a88d8846d2f5f
-    layerID: 45
-    mosaicPosition: {x: 71, y: 565}
-  - name: Layer 20
-    spriteName: Layer 20
-    isGroup: 0
-    parentIndex: 5
-    spriteID: 130187a047aa1be41948520d2194d604
-    layerID: 44
-    mosaicPosition: {x: 138, y: 565}
-  - name: Layer 67
-    spriteName: Layer 67
-    isGroup: 0
-    parentIndex: 5
-    spriteID: 1558400e7092c3b4ebda89de8417a90c
-    layerID: 43
-    mosaicPosition: {x: 199, y: 565}
   - name: Arm-R
     spriteName: 
     isGroup: 1
@@ -10987,28 +10981,28 @@ ScriptedImporter:
   - name: Layer 64
     spriteName: Layer 64
     isGroup: 0
-    parentIndex: 9
+    parentIndex: 5
     spriteID: ceca48dae87201f4c9a9bfac325583da
     layerID: 40
     mosaicPosition: {x: 876, y: 377}
   - name: Layer 11
     spriteName: Layer 11
     isGroup: 0
-    parentIndex: 9
+    parentIndex: 5
     spriteID: ae419050ad7d38846833ce4e935d8cd0
     layerID: 39
     mosaicPosition: {x: 959, y: 224}
   - name: Layer 12
     spriteName: Layer 12
     isGroup: 0
-    parentIndex: 9
+    parentIndex: 5
     spriteID: 731633e0ba7cf884fa5bd5ec74e913f4
     layerID: 38
     mosaicPosition: {x: 959, y: 385}
   - name: Layer 19
     spriteName: Layer 19
     isGroup: 0
-    parentIndex: 9
+    parentIndex: 5
     spriteID: d3ccd05eed1e02f4eb9949b8c89a18ea
     layerID: 37
     mosaicPosition: {x: 4, y: 565}
@@ -11022,7 +11016,7 @@ ScriptedImporter:
   - name: Layer 56
     spriteName: Layer 56
     isGroup: 0
-    parentIndex: 14
+    parentIndex: 10
     spriteID: b926b65581e604a4eb68d017d412ee7d
     layerID: 34
     mosaicPosition: {x: 321, y: 4}
@@ -11036,7 +11030,7 @@ ScriptedImporter:
   - name: Layer 21
     spriteName: Layer 21
     isGroup: 0
-    parentIndex: 16
+    parentIndex: 12
     spriteID: e503c4815ff8b4442bf1335945aac16b
     layerID: 31
     mosaicPosition: {x: 622, y: 4}
@@ -11050,14 +11044,14 @@ ScriptedImporter:
   - name: Layer 17 Copy
     spriteName: Layer 17 Copy
     isGroup: 0
-    parentIndex: 18
+    parentIndex: 14
     spriteID: 4cd71c09248f0f24dbac0e93debc289d
     layerID: 28
     mosaicPosition: {x: 763, y: 4}
   - name: Layer 17
     spriteName: Layer 17
     isGroup: 0
-    parentIndex: 18
+    parentIndex: 14
     spriteID: 6c426d6fa5292d64ebe0917dc435da46
     layerID: 27
     mosaicPosition: {x: 895, y: 4}
@@ -11071,14 +11065,14 @@ ScriptedImporter:
   - name: Layer 53 Copy
     spriteName: Layer 53 Copy
     isGroup: 0
-    parentIndex: 21
+    parentIndex: 17
     spriteID: 947513fd79940f1408f0f91ccd7f9beb
     layerID: 24
     mosaicPosition: {x: 4, y: 481}
   - name: Layer 72
     spriteName: Layer 72
     isGroup: 0
-    parentIndex: 21
+    parentIndex: 17
     spriteID: 19dae13c78093544dae63ef1e52888ef
     layerID: 23
     mosaicPosition: {x: 158, y: 481}
@@ -11092,38 +11086,73 @@ ScriptedImporter:
   - name: Layer 43
     spriteName: Layer 43
     isGroup: 0
-    parentIndex: 24
+    parentIndex: 20
     spriteID: 92576a2f517f82548a4158ba57148360
     layerID: 18
     mosaicPosition: {x: 704, y: 224}
   - name: Layer 48
     spriteName: Layer 48
     isGroup: 0
-    parentIndex: 24
+    parentIndex: 20
     spriteID: 59f99b5583026394ca15886ecc625e11
     layerID: 17
     mosaicPosition: {x: 788, y: 224}
   - name: Legs_L
     spriteName: 
     isGroup: 1
-    parentIndex: 24
+    parentIndex: 20
     spriteID: 00000000000000000000000000000000
     layerID: 16
     mosaicPosition: {x: 0, y: 0}
   - name: Layer 50
     spriteName: Layer 50
     isGroup: 0
-    parentIndex: 27
+    parentIndex: 23
     spriteID: 70ac9e8e9335c75459e211e16e68cd23
     layerID: 15
     mosaicPosition: {x: 618, y: 224}
   - name: Layer 51
     spriteName: Layer 51
     isGroup: 0
-    parentIndex: 27
+    parentIndex: 23
     spriteID: 8fbe57bca4ccfdd49b7d36b8a668ba33
     layerID: 14
     mosaicPosition: {x: 876, y: 224}
+  - name: Vibrance 1
+    spriteName: Vibrance 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ebd5139fa627c944aba4777d8092d992
+    layerID: 56
+    mosaicPosition: {x: 959, y: 460}
+  - name: Arm-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+  - name: Layer 70
+    spriteName: Layer 70
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 0f3f0703d49aca94da8a88d8846d2f5f
+    layerID: 45
+    mosaicPosition: {x: 71, y: 565}
+  - name: Layer 20
+    spriteName: Layer 20
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 130187a047aa1be41948520d2194d604
+    layerID: 44
+    mosaicPosition: {x: 138, y: 565}
+  - name: Layer 67
+    spriteName: Layer 67
+    isGroup: 0
+    parentIndex: 27
+    spriteID: 1558400e7092c3b4ebda89de8417a90c
+    layerID: 43
+    mosaicPosition: {x: 199, y: 565}
   - name: Neck
     spriteName: 
     isGroup: 1
@@ -11134,7 +11163,7 @@ ScriptedImporter:
   - name: Layer 13
     spriteName: Layer 13
     isGroup: 0
-    parentIndex: 30
+    parentIndex: 31
     spriteID: a358e55a6a25af1448fbf87e7a6bb727
     layerID: 9
     mosaicPosition: {x: 788, y: 410}
@@ -11148,14 +11177,14 @@ ScriptedImporter:
   - name: Layer 54
     spriteName: Layer 54
     isGroup: 0
-    parentIndex: 32
+    parentIndex: 33
     spriteID: efb625913d20b684aa044ed06a6926f1
     layerID: 6
     mosaicPosition: {x: 4, y: 224}
   - name: Layer 55
     spriteName: Layer 55
     isGroup: 0
-    parentIndex: 32
+    parentIndex: 33
     spriteID: dade19b2d83e2424e94253ab2263d620
     layerID: 5
     mosaicPosition: {x: 231, y: 224}
