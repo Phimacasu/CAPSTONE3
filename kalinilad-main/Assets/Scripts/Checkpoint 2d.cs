@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Checkpoint : MonoBehaviour
+public class Checkpoint2d: MonoBehaviour
 {
     [SerializeField]
     Material matActive, matOff;
@@ -17,21 +17,21 @@ public class Checkpoint : MonoBehaviour
     void Start()
     {
         if (PlayerPrefs.GetInt("Checkpoint") == numCheckpoint)
-            gameObject.GetComponent<SpriteRenderer>().material = matActive;
+            gameObject.GetComponent<MeshRenderer>().material = matActive;
     }
 
     // Update is called once per frame
     void Update()
     {
         if (PlayerPrefs.GetInt("Checkpoint") != numCheckpoint)
-            gameObject.GetComponent<SpriteRenderer>().material = matOff;
+            gameObject.GetComponent<MeshRenderer>().material = matOff;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.LogWarning("Checkpoint!");
         PlayerPrefs.SetInt("Checkpoint", numCheckpoint);
-        gameObject.GetComponent<SpriteRenderer>().material = matActive;
+        gameObject.GetComponent<MeshRenderer>().material = matActive;
         
         PlayerPrefs.SetString("SceneSpawn", targetSpawnScene);
 

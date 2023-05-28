@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
             stateIsClimbing = true;
         }
 
-        if (stateIsWatered)
+        /*if (stateIsWatered)
         {        
             if (PlayerPrefs.GetInt("Sequence") >= 11)
             {
@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
                 stateCanSwim = false;
             }
                 
-        }
+        }*/
 
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -117,13 +117,13 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.P))
         {
-            /*
+            
             PlayerPrefs.DeleteKey("SpawnX");
             PlayerPrefs.DeleteKey("Sequence");
             PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "Tutorial");
-            SceneManager.LoadScene("Tutorial");
-            */
+            PlayerPrefs.SetString("SceneSpawn", "NewTutorial_V1");
+            SceneManager.LoadScene("NewTutorial_V1");
+            
 
             PlayerPrefs.DeleteKey("Net");
             PlayerPrefs.DeleteKey("Lighter");
@@ -139,6 +139,12 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "CommercialAndCorporate");
             SceneManager.LoadScene("CommercialAndCorporate");
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            PlayerPrefs.DeleteKey("SpawnX");
+            PlayerPrefs.DeleteKey("Checkpoint");
         }
     }
     void FixedUpdate()
