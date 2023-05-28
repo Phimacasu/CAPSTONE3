@@ -17,21 +17,21 @@ public class Checkpoint : MonoBehaviour
     void Start()
     {
         if (PlayerPrefs.GetInt("Checkpoint") == numCheckpoint)
-            gameObject.GetComponent<MeshRenderer>().material = matActive;
+            gameObject.GetComponent<SpriteRenderer>().material = matActive;
     }
 
     // Update is called once per frame
     void Update()
     {
         if (PlayerPrefs.GetInt("Checkpoint") != numCheckpoint)
-            gameObject.GetComponent<MeshRenderer>().material = matOff;
+            gameObject.GetComponent<SpriteRenderer>().material = matOff;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.LogWarning("Checkpoint!");
         PlayerPrefs.SetInt("Checkpoint", numCheckpoint);
-        gameObject.GetComponent<MeshRenderer>().material = matActive;
+        gameObject.GetComponent<SpriteRenderer>().material = matActive;
         
         PlayerPrefs.SetString("SceneSpawn", targetSpawnScene);
 

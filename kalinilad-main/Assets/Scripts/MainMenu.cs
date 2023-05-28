@@ -14,8 +14,8 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.DeleteKey("Lighter");
         PlayerPrefs.DeleteKey("Box");
         PlayerPrefs.DeleteKey("Mop");
-        PlayerPrefs.SetString("SceneSpawn", "Tutorial");
-        SceneManager.LoadScene("Tutorial"); //Loads Tutorial
+        PlayerPrefs.SetString("SceneSpawn", "NewTutorial_V1");
+        SceneManager.LoadScene("NewTutorial_V1"); //Loads Tutorial
     }
 
     public void LoadGame()
@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Tutorial");
+            SceneManager.LoadScene("NewTutorial_V1");
         }
         //SceneManager.LoadScene("SaveFile"); //Loads from the save file from the scene named SaveFile
     }

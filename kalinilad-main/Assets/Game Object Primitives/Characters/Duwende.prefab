@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6693272187982789649}
   - component: {fileID: 3108012841909870392}
+  - component: {fileID: 2437648344592861901}
+  - component: {fileID: 1804854055107502725}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -82,6 +84,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2437648344592861901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338290686766898511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3655de3ff23f8ad48ac1ba9536ae0cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: []
+  rngMaxSetDialogues: 1
+--- !u!114 &1804854055107502725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338290686766898511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2219078ef9c60994bbb86c34e230daf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages: []
+  actors: []
 --- !u!1 &2453040880393886280
 GameObject:
   m_ObjectHideFlags: 0
