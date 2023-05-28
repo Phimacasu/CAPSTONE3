@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
         yMove = Input.GetAxisRaw("Vertical");
         movement = new Vector3(Input.GetAxisRaw("Horizontal") * speed, rb.velocity.y, 0f);//*Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.W) && stateIsGrounded && !stateIsClimbing)
+        if (Input.GetKeyDown(KeyCode.W) && stateIsGrounded && !stateIsClimbing || Input.GetKeyDown(KeyCode.Space) && stateIsGrounded && !stateIsClimbing)
         {
             rb.AddForce(new Vector3(0, 40f, 0), ForceMode.Impulse);
             stateIsGrounded = false;
