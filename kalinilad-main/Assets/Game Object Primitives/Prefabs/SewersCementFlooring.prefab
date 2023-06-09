@@ -1,0 +1,1364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2645493690704024259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 525491321844406521}
+  m_Layer: 0
+  m_Name: SewersCementFlooring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &525491321844406521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2645493690704024259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 494.46, y: 107.740005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8401657883769752952}
+  - {fileID: 8401657884070641811}
+  - {fileID: 8401657884450010376}
+  - {fileID: 8401657883788101560}
+  - {fileID: 8401657882543719560}
+  - {fileID: 8401657883832364657}
+  - {fileID: 8401657882989402997}
+  - {fileID: 8401657883975604046}
+  - {fileID: 8401657883268950953}
+  - {fileID: 8401657882369882049}
+  - {fileID: 8401657882540845442}
+  - {fileID: 8401657884455961812}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8005783380862174413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.290009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3800049
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657884450010376 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783380862174413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783380868150545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.720001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657884455961812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783380868150545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783381086351702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657884070641811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783381086351702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783381193090699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657883975604046 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783381193090699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783381318344628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.290009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657883832364657 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783381318344628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783381523594429
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.290009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657883769752952 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783381523594429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783381541942909
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3800049
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657883788101560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783381541942909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783381895780972
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6600037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657883268950953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783381895780972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783382354373296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.290009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.6900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657882989402997 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783382354373296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783382777763911
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.290009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.720001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657882540845442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783382777763911}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783382781179213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657882543719560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783382781179213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8005783382808118788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525491321844406521}
+    m_Modifications:
+    - target: {fileID: 1982409315916916117, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316410040908, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316515053649, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316622668979, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316807825558, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316947982737, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409316967581488, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317251888950, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317438980960, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317467477061, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317473135661, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317725133120, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535556, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_Name
+      value: SewersCementFlooring
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.290009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6600037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+--- !u!4 &8401657882369882049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1982409317919535557, guid: 96b7a290fda03204a89786e000cb18ea, type: 3}
+  m_PrefabInstance: {fileID: 8005783382808118788}
+  m_PrefabAsset: {fileID: 0}
