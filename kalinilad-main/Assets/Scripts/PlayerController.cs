@@ -133,12 +133,48 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.O))
         {
-            PlayerPrefs.SetFloat("SpawnX", 198);
-            PlayerPrefs.SetFloat("SpawnY", 343);
+            PlayerPrefs.SetFloat("SpawnX", -47);
+            PlayerPrefs.SetFloat("SpawnY", 45);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "CommercialAndCorporate");
-            SceneManager.LoadScene("CommercialAndCorporate");
+            PlayerPrefs.SetString("SceneSpawn", "3.3 Final Level");
+            SceneManager.LoadScene("3.3 Final Level");
+            /*PlayerPrefs.SetFloat("SpawnX", 25);
+            PlayerPrefs.SetFloat("SpawnY", 6);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "3.2 Legit");
+            SceneManager.LoadScene("3.2 Legit");
+            PlayerPrefs.SetFloat("SpawnX", 570);
+            PlayerPrefs.SetFloat("SpawnY", 20);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "Level 3.1 Outside");
+            SceneManager.LoadScene("Level 3.1 Outside");
+            PlayerPrefs.SetFloat("SpawnX", 570);
+            PlayerPrefs.SetFloat("SpawnY", 76);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "Level2");
+            SceneManager.LoadScene("Level2");
+            PlayerPrefs.SetFloat("SpawnX", 202);
+            PlayerPrefs.SetFloat("SpawnY", 394);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
+            SceneManager.LoadScene("SubTunnels");///For SubTunnel A (Left SubTunnel)
+            PlayerPrefs.SetFloat("SpawnX", 219);
+            PlayerPrefs.SetFloat("SpawnY", 374);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
+            SceneManager.LoadScene("SubTunnels");///For SubTunnel B (Middle SubTunnel)
+            PlayerPrefs.SetFloat("SpawnX", 241);
+            PlayerPrefs.SetFloat("SpawnY", 378);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
+            SceneManager.LoadScene("SubTunnels");///For SubTunnel C (Right SubTunnel)*/
         }
 
         if (Input.GetKeyDown(KeyCode.L))
