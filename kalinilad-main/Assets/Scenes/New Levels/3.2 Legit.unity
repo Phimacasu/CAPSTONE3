@@ -573,7 +573,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &38714392
 SpriteRenderer:
@@ -931,7 +931,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &73106801
 SpriteRenderer:
@@ -1333,8 +1333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad5905a511d094ca9b81b6f3e04e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  lineOfSight: 3
 --- !u!65 &122844335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1391,7 +1389,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &138433690
 SpriteRenderer:
@@ -1487,7 +1485,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &180480093
 SpriteRenderer:
@@ -1860,7 +1858,7 @@ GameObject:
   - component: {fileID: 229354114}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (2)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1873,11 +1871,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229354112}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.6384614, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1.6400003, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children: []
-  m_Father: {fileID: 1574824787}
-  m_RootOrder: 1
+  m_Father: {fileID: 1128596162}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &229354114
 MonoBehaviour:
@@ -1900,7 +1898,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229354112}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -2404,7 +2402,7 @@ GameObject:
   - component: {fileID: 324259599}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (1)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2417,11 +2415,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324259597}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.276923, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.7399998, y: -1.1499996, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_Children: []
-  m_Father: {fileID: 527899726}
-  m_RootOrder: 0
+  m_Father: {fileID: 904461207}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &324259599
 MonoBehaviour:
@@ -2444,7 +2442,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324259597}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -2861,7 +2859,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &377949834
 SpriteRenderer:
@@ -4099,7 +4097,7 @@ GameObject:
   - component: {fileID: 527899727}
   m_Layer: 0
   m_Name: Ladder
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4112,13 +4110,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527899725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.74, y: -0.32, z: 0}
+  m_LocalPosition: {x: 2.7399998, y: -0.32000017, z: 0}
   m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
-  m_Children:
-  - {fileID: 324259598}
-  - {fileID: 1679702597}
-  - {fileID: 672038151}
-  m_Father: {fileID: 1999225027}
+  m_Children: []
+  m_Father: {fileID: 904461207}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &527899727
@@ -4142,7 +4137,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527899725}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -4554,7 +4549,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &555402544
 SpriteRenderer:
@@ -4621,7 +4616,7 @@ GameObject:
   - component: {fileID: 560525521}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (1)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4634,11 +4629,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560525519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.276923, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 3.4099998, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children: []
-  m_Father: {fileID: 1574824787}
-  m_RootOrder: 0
+  m_Father: {fileID: 1128596162}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &560525521
 MonoBehaviour:
@@ -4661,7 +4656,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560525519}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -5105,7 +5100,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &617292406
 SpriteRenderer:
@@ -5478,7 +5473,7 @@ GameObject:
   - component: {fileID: 664229378}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (3)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5491,11 +5486,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664229376}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.8999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children: []
-  m_Father: {fileID: 1574824787}
-  m_RootOrder: 2
+  m_Father: {fileID: 1128596162}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &664229378
 MonoBehaviour:
@@ -5518,7 +5513,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664229376}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -5588,7 +5583,7 @@ GameObject:
   - component: {fileID: 672038152}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (3)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5601,10 +5596,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672038150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.8999999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.7399998, y: -2.8549995, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_Children: []
-  m_Father: {fileID: 527899726}
+  m_Father: {fileID: 904461207}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &672038152
@@ -5628,7 +5623,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672038150}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -5896,8 +5891,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad5905a511d094ca9b81b6f3e04e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  lineOfSight: 7.5
 --- !u!65 &703473264
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6285,7 +6278,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &819318795
 SpriteRenderer:
@@ -6458,7 +6451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828429522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.3, y: 45.5, z: 0}
+  m_LocalPosition: {x: -17.2, y: 45.5, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1434313972}
@@ -6534,6 +6527,10 @@ PrefabInstance:
     - target: {fileID: 3952734721243053414, guid: d08eaeb29deedaf4ea3b7f44daa7004f, type: 3}
       propertyPath: m_Constraints
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3952734721243053414, guid: d08eaeb29deedaf4ea3b7f44daa7004f, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3952734721243053415, guid: d08eaeb29deedaf4ea3b7f44daa7004f, type: 3}
       propertyPath: m_Sprite
@@ -6795,6 +6792,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c0ad522d09439042a1da0c899e8d4fd, type: 3}
+--- !u!1 &904461206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 904461207}
+  m_Layer: 0
+  m_Name: MovingLadder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &904461207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904461206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 527899726}
+  - {fileID: 1679702597}
+  - {fileID: 672038151}
+  - {fileID: 324259598}
+  m_Father: {fileID: 1999225027}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &910035811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7228,7 +7259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996889944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.3, y: 24.3, z: 0}
+  m_LocalPosition: {x: -17.2, y: 20.8, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1434313972}
@@ -7248,7 +7279,7 @@ GameObject:
   - component: {fileID: 1004416601}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7274,7 +7305,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004416600}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -7486,7 +7517,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1028420945
 SpriteRenderer:
@@ -8053,6 +8084,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1128596161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1128596162}
+  m_Layer: 0
+  m_Name: Ladder2
+  m_TagString: Ladder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1128596162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128596161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.63, y: 9.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1574824787}
+  - {fileID: 560525520}
+  - {fileID: 229354113}
+  - {fileID: 664229377}
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1136460655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8191,8 +8256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad5905a511d094ca9b81b6f3e04e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  lineOfSight: 3
 --- !u!65 &1136460658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8441,7 +8504,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1178091190
 SpriteRenderer:
@@ -8706,7 +8769,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1224712512
 SpriteRenderer:
@@ -9474,8 +9537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad5905a511d094ca9b81b6f3e04e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  lineOfSight: 3
 --- !u!65 &1355602907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9532,7 +9593,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1357212607
 SpriteRenderer:
@@ -9628,7 +9689,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1368526355
 SpriteRenderer:
@@ -10721,7 +10782,7 @@ GameObject:
   - component: {fileID: 1574824784}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (1)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10747,7 +10808,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574824783}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -10810,15 +10871,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574824783}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.63, y: 14.25, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.0699997, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
-  m_Children:
-  - {fileID: 560525520}
-  - {fileID: 229354113}
-  - {fileID: 664229377}
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Children: []
+  m_Father: {fileID: 1128596162}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1587413577
 GameObject:
@@ -11122,7 +11180,7 @@ GameObject:
   - component: {fileID: 1608198325}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (2)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11162,7 +11220,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608198323}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -11424,7 +11482,7 @@ GameObject:
   - component: {fileID: 1679702598}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (2)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11437,10 +11495,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679702596}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.6384614, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.7399998, y: -2.0349998, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_Children: []
-  m_Father: {fileID: 527899726}
+  m_Father: {fileID: 904461207}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1679702598
@@ -11464,7 +11522,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679702596}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -11822,7 +11880,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1828330134
 SpriteRenderer:
@@ -12243,7 +12301,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1914760261
 SpriteRenderer:
@@ -12843,7 +12901,7 @@ GameObject:
   - component: {fileID: 1964810653}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (3)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12883,7 +12941,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964810651}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -13206,7 +13264,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1995713589
 SpriteRenderer:
@@ -13289,7 +13347,7 @@ Transform:
   m_LocalPosition: {x: -16.35, y: 16.1, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
-  - {fileID: 527899726}
+  - {fileID: 904461207}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13513,7 +13571,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.72, y: 0.51, z: 0}
+  m_Size: {x: 1.72, y: 0.51, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &2026045018
 SpriteRenderer:
@@ -13676,7 +13734,7 @@ GameObject:
   - component: {fileID: 2060966909}
   m_Layer: 0
   m_Name: Spritesheet_Level3_ProspandPlatforms_13 (1)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13716,7 +13774,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060966907}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.12, y: 1.51, z: 0}
@@ -13986,8 +14044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27ad5905a511d094ca9b81b6f3e04e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  lineOfSight: 7.5
 --- !u!65 &2118341560
 BoxCollider:
   m_ObjectHideFlags: 0
