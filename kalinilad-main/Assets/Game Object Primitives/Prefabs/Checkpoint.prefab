@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6070317818046868994}
   - component: {fileID: 3229206414969233112}
-  - component: {fileID: 3635131477629072611}
   - component: {fileID: 2019250682862247178}
   m_Layer: 0
   m_Name: Checkpoint
@@ -28,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6018984199517459462}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 560.80115, y: 97.3, z: 0}
-  m_LocalScale: {x: 0.28834, y: 0.28834, z: 0.28834}
+  m_LocalScale: {x: 0.17159113, y: 0.17159113, z: 0.17159113}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -84,19 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &3635131477629072611
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6018984199517459462}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.999999, y: 9.999999, z: 0.19999999}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2019250682862247178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43454759ef3242f4393341918d5c1e33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  matActive: {fileID: 0}
-  matOff: {fileID: 0}
+  matActive: {fileID: 2100000, guid: 4a5a464296cc72341ad7782e32d78383, type: 2}
+  matOff: {fileID: 2100000, guid: 2a2e775a39e7c55438069824549dabdc, type: 2}
   numCheckpoint: -1
   targetSpawnScene: 
