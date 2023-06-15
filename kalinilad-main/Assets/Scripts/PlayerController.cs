@@ -96,18 +96,10 @@ public class PlayerController : MonoBehaviour
             stateIsClimbing = true;
         }
 
-        /*if (stateIsWatered)
-        {        
-            if (PlayerPrefs.GetInt("Sequence") >= 11)
-            {
+         if (stateIsWatered)
+        {
                 stateCanSwim = true;
-            }
-            else
-            {
-                stateCanSwim = false;
-            }
-                
-        }*/
+        }
 
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -133,12 +125,60 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.O))
         {
-            PlayerPrefs.SetFloat("SpawnX", 198);
-            PlayerPrefs.SetFloat("SpawnY", 343);
+            PlayerPrefs.SetFloat("SpawnX", -47);
+            PlayerPrefs.SetFloat("SpawnY", 45);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "CommercialAndCorporate");
-            SceneManager.LoadScene("CommercialAndCorporate");
+            PlayerPrefs.SetString("SceneSpawn", "3.3 Final Level");
+            SceneManager.LoadScene("3.3 Final Level");
+            /*PlayerPrefs.SetFloat("SpawnX", 25);
+            PlayerPrefs.SetFloat("SpawnY", 6);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "3.2 Legit");
+            SceneManager.LoadScene("3.2 Legit");*/
+            /*PlayerPrefs.SetFloat("SpawnX", 605);
+            PlayerPrefs.SetFloat("SpawnY", 25);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "Level 3.1 Outside");
+            SceneManager.LoadScene("Level 3.1 Outside"); 
+            /*PlayerPrefs.SetFloat("SpawnX", 570);
+            PlayerPrefs.SetFloat("SpawnY", 76);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "Level2");
+            SceneManager.LoadScene("Level2");
+            PlayerPrefs.SetFloat("SpawnX", 202);
+            PlayerPrefs.SetFloat("SpawnY", 395);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
+            SceneManager.LoadScene("SubTunnels");///For SubTunnel A (Left SubTunnel)*/
+            /*PlayerPrefs.SetFloat("SpawnX", 219);
+            PlayerPrefs.SetFloat("SpawnY", 374);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
+            SceneManager.LoadScene("SubTunnels");///For SubTunnel B (Middle SubTunnel)*/
+            /*PlayerPrefs.SetFloat("SpawnX", 241);
+            PlayerPrefs.SetFloat("SpawnY", 378);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
+            SceneManager.LoadScene("SubTunnels");///For SubTunnel C (Right SubTunnel)*/
+            /*PlayerPrefs.SetFloat("SpawnX", 180);
+            PlayerPrefs.SetFloat("SpawnY", 380);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "NewLevel1");
+            SceneManager.LoadScene("NewLevel1");*/
+            PlayerPrefs.SetFloat("SpawnX", 0);
+            PlayerPrefs.SetFloat("SpawnY", 5);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "3.3");
+            SceneManager.LoadScene("3.3");
         }
 
         if (Input.GetKeyDown(KeyCode.L))
