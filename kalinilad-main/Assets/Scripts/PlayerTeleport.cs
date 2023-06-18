@@ -41,7 +41,7 @@ public class PlayerTeleport : MonoBehaviour
                 Progress();
                 if(stateCanProgress)
                 {
-                    if (targetScene != "Tutorial")
+                    if (targetScene != "NewTutorial_V1")
                     {
                         Debug.LogWarning("Entered " + targetScene);
                         PlayerPrefs.SetFloat("SpawnX", targetSpawn.x);
@@ -59,8 +59,8 @@ public class PlayerTeleport : MonoBehaviour
                         PlayerPrefs.DeleteKey("Lighter");
                         PlayerPrefs.DeleteKey("Box");
                         PlayerPrefs.DeleteKey("Mop");
-                        PlayerPrefs.SetString("SceneSpawn", "Tutorial");
-                        SceneManager.LoadScene("Tutorial");
+                        PlayerPrefs.SetString("SceneSpawn", "NewTutorial_V1");
+                        SceneManager.LoadScene("NewTutorial_V1");
                     }
                     
                 }
@@ -118,7 +118,7 @@ public class PlayerTeleport : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("Sequence"))
         {
-            stateCanProgress = true;
+            stateCanProgress = false;
             PlayerPrefs.SetInt("Sequence", 1);
             return;
         }
@@ -127,12 +127,12 @@ public class PlayerTeleport : MonoBehaviour
 
         if (currentSequence < prerequisiteSequence)
         {
-            stateCanProgress = false;
+            stateCanProgress = true;
 
-            if (prerequisiteSequence == 2)
+            if (prerequisiteSequence > -1)
             {
-                Debug.LogError("You're missing a Gas Mask!");
-                if (objTxtFeedback != null)
+                Debug.LogError("You don't have a key!");
+                if (objTxtFeedback == null)
                 {
                     objTxtFeedback.SetActive(true);
                     Debug.LogWarning("Called");

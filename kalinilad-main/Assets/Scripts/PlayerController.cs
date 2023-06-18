@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && stateIsGrounded && !stateIsClimbing || Input.GetKeyDown(KeyCode.Space) && stateIsGrounded && !stateIsClimbing)
         {
-            rb.AddForce(new Vector3(0, 40f, 0), ForceMode.Impulse);
+            rb.AddForce(new Vector3(0, 23.5f, 0), ForceMode.Impulse);
             stateIsGrounded = false;
         }
 
@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         
-        if (Input.GetKeyDown(KeyCode.P))
+        /*if (Input.GetKeyDown(KeyCode.P))
         {
             
             PlayerPrefs.DeleteKey("SpawnX");
@@ -121,11 +121,11 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.DeleteKey("Lighter");
             PlayerPrefs.DeleteKey("Box");
             PlayerPrefs.DeleteKey("Mop");
-        }
+        }*/
 
-        if (Input.GetKeyDown(KeyCode.O))
+       /*if (Input.GetKeyDown(KeyCode.O))
         {
-            PlayerPrefs.SetFloat("SpawnX", -47);
+           PlayerPrefs.SetFloat("SpawnX", -47);
             PlayerPrefs.SetFloat("SpawnY", 45);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
@@ -142,14 +142,14 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "Level 3.1 Outside");
-            SceneManager.LoadScene("Level 3.1 Outside"); 
+            SceneManager.LoadScene("Level 3.1 Outside");*/ 
             /*PlayerPrefs.SetFloat("SpawnX", 570);
             PlayerPrefs.SetFloat("SpawnY", 76);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "Level2");
-            SceneManager.LoadScene("Level2");
-            PlayerPrefs.SetFloat("SpawnX", 202);
+            SceneManager.LoadScene("Level2");*/
+            /*PlayerPrefs.SetFloat("SpawnX", 202);
             PlayerPrefs.SetFloat("SpawnY", 395);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
@@ -173,13 +173,13 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "NewLevel1");
             SceneManager.LoadScene("NewLevel1");*/
-            PlayerPrefs.SetFloat("SpawnX", 0);
+            /*PlayerPrefs.SetFloat("SpawnX", 0);
             PlayerPrefs.SetFloat("SpawnY", 5);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "3.3");
-            SceneManager.LoadScene("3.3");
-        }
+            SceneManager.LoadScene("3.3");*/
+        //}///
 
         if (Input.GetKeyDown(KeyCode.L))
         {

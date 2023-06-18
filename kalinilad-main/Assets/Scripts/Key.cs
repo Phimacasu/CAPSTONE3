@@ -34,7 +34,7 @@ public class Key : MonoBehaviour
              if(!isFollowing)
             {
                 followTarget = thePlayer.keyFollowPoint;
-
+                Debug.Log("Key Obtained!");
                 isFollowing = true;
                 thePlayer.stateHasKey = true;
                 thePlayer.followingKey = this; 
