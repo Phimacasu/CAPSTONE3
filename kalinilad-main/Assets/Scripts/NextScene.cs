@@ -25,7 +25,7 @@ public class NextScene : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag(keyTag))
         {
@@ -33,5 +33,5 @@ public class NextScene : MonoBehaviour
             Destroy(other.gameObject);
             Debug.Log("You found a key!");
         }
-    }
+    }*/
 }

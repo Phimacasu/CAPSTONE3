@@ -4,69 +4,95 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public Transform[] waypoints; // Array of waypoints for patrolling
-    public float patrolSpeed = 3f; // Speed at which the enemy patrols
-    public float chaseSpeed = 5f; // Speed at which the enemy chases the player
-    public float sightRange = 10f; // Range at which the enemy can see the player
-    public float attackRange = 2f; // Range at which the enemy attacks the player
-    public GameObject bulletPrefab; // Prefab of the bullet object
-    public Transform bulletSpawnPoint; // Transform where the bullet spawns
+    public float moveSpeed = 2f;
+    public float chaseSpeed = 4f;
+    public float attackRange = 10f;
+    public float attackDamage = 1f;
+    public Transform[] waypoints;
+    public Transform player;
+    public Transform respawnPoint;
+    public GameObject playerPrefab;
+    public GameObject bulletPrefab;
+    public float bulletSpeed = 1000000f;
+    public float attackCooldown = 5f;
 
-    private Transform target; // Reference to the player's transform
-    private int currentWaypointIndex = 0; // Index of the current waypoint
-    private bool isChasing = false; // Flag to indicate if the enemy is chasing the player
+    private int currentWaypointIndex = 0;
+    private bool isChasing = false;
 
     private void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        playerPrefab = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void Update()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, target.position);
-
-        if (distanceToPlayer <= attackRange)
+        if (isChasing)
         {
-            // Attack the player
-            Attack();
-        }
-        else if (distanceToPlayer <= sightRange)
-        {
-            // Chase the player
-            isChasing = true;
-            Chase();
+            ChasePlayer();
         }
         else
         {
-            // Patrol between waypoints
-            isChasing = false;
             Patrol();
         }
+
+       
     }
 
     private void Patrol()
     {
-        // Move towards the current waypoint
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[currentWaypointIndex].position, patrolSpeed * Time.deltaTime);
+        if (waypoints.Length == 0)
+            return;
 
-        // Check if the enemy has reached the current waypoint
-        if (transform.position == waypoints[currentWaypointIndex].position)
+        Transform currentWaypoint = waypoints[currentWaypointIndex];
+        transform.position = Vector2.MoveTowards(transform.position, currentWaypoint.position, moveSpeed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, currentWaypoint.position) < 0.1f)
         {
-            // Move to the next waypoint
             currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
+        }
+
+        if (Vector2.Distance(transform.position, player.position) < attackRange)
+        {
+            isChasing = true;
         }
     }
 
-    private void Chase()
+    private void ChasePlayer()
     {
-        // Move towards the player's position
-        transform.position = Vector3.MoveTowards(transform.position, target.position, chaseSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
+
+        if (Vector2.Distance(transform.position, player.position) > attackRange)
+        {
+            isChasing = false;
+        }
+
+        if (Vector2.Distance(transform.position, player.position) < attackRange)
+        {
+            AttackPlayer();
+
+            attackCooldown -= 0.01f;
+        }
     }
 
-    private void Attack()
+    private void AttackPlayer()
     {
-        // Instantiate a bullet prefab at the bullet spawn point
-        Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+        ThrownProjectile();
+
+        // Respawn the player at the last checkpoint
+        //GameObject newPlayer = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
+        //newPlayer.tag = "Player";
+    }
+
+    private void ThrownProjectile()
+    {
+        if (attackCooldown <= 0)
+        {
+            Vector2 direction = player.transform.position - transform.position;
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+            Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
+            bulletRigidbody.velocity = direction.normalized * bulletSpeed;
+            attackCooldown = 5f;
+        }
     }
 }
 
