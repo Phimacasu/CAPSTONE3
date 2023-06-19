@@ -315,6 +315,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &64719522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7151901305141432996, guid: 839a1d93b6899b44a81990f0eb19c085, type: 3}
+  m_PrefabInstance: {fileID: 1359571266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &64719524
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64719522}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b06b759a5793e3e4fabe894c84ad6f45, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &92324594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,11 +1981,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &433830682 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
-  m_PrefabInstance: {fileID: 299631048}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &438932083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4256,6 +4275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Duwende
       objectReference: {fileID: 0}
+    - target: {fileID: 5211508481528108114, guid: b4b1f79050a8e5b46a38a11f1571f49a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8ccb317ab15ca6d43bc5814f4ac446b7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4b1f79050a8e5b46a38a11f1571f49a, type: 3}
 --- !u!1 &1160192158
@@ -5795,6 +5818,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1479293573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7545056002422417207, guid: 839a1d93b6899b44a81990f0eb19c085, type: 3}
+  m_PrefabInstance: {fileID: 1359571266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1479293577
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479293573}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b06b759a5793e3e4fabe894c84ad6f45, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1491335324
 GameObject:
   m_ObjectHideFlags: 0
@@ -6971,8 +7018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f47202bd578de8340bea5601ccc7c3f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portal: {fileID: 269050889}
-  player: {fileID: 433830682}
 --- !u!1 &1653341481
 GameObject:
   m_ObjectHideFlags: 0
@@ -8055,6 +8100,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1824586606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4887792941454206334, guid: b4b1f79050a8e5b46a38a11f1571f49a, type: 3}
+  m_PrefabInstance: {fileID: 1030328869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1824586607
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824586606}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ccb317ab15ca6d43bc5814f4ac446b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1875030551
 GameObject:
   m_ObjectHideFlags: 0
