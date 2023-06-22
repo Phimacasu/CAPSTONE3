@@ -235,6 +235,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.6, y: 16.16, z: 1}
   m_Center: {x: 0, y: 8.67, z: 0}
+--- !u!95 &7445206375221319949
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883701008520333511}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97ca68792c0eb9c46b47dcae0928b87a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &6003213832989577131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,20 +269,6 @@ MonoBehaviour:
   trigger: []
   typeQCollectible: 
   enemyQuest: {fileID: 0}
---- !u!114 &8806433479308542441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6883701008520333511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2219078ef9c60994bbb86c34e230daf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messages: []
-  actors: []
 --- !u!114 &8772267752573706059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,22 +283,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: []
   rngMaxSetDialogues: 1
---- !u!95 &7445206375221319949
-Animator:
-  serializedVersion: 3
+--- !u!114 &8806433479308542441
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6883701008520333511}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2219078ef9c60994bbb86c34e230daf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages: []
+  actors: []
