@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5693198091993561089}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 0.91989994, z: 2.4686346}
+  m_LocalPosition: {x: 0.5130005, y: 1.1679001, z: 0}
   m_LocalScale: {x: 0.312893, y: 0.312893, z: 0.44699}
   m_Children: []
   m_Father: {fileID: 5693198093053076600}
@@ -748,6 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5693198093053076600}
   - component: {fileID: 6467786954842831219}
+  - component: {fileID: 6153794794777590808}
   m_Layer: 0
   m_Name: MovingPlatformTunnels3
   m_TagString: Ground
@@ -796,6 +797,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8, y: 0.52, z: 1}
   m_Center: {x: 0.42, y: -0.64, z: 0}
+--- !u!114 &6153794794777590808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5693198093053076607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb234d6842d9ec4b9b5550dc52c0318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  startingPoint: 0
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &5693198093188235723
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,7 +839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5693198093188235723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 1.3400002, z: 2.4686346}
+  m_LocalPosition: {x: 0.513, y: 1.588, z: 0}
   m_LocalScale: {x: 0.312893, y: 0.312893, z: 0.44699}
   m_Children: []
   m_Father: {fileID: 5693198093053076600}
