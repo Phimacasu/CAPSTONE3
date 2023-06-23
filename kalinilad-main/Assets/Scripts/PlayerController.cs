@@ -11,12 +11,17 @@ public class PlayerController : MonoBehaviour
 
     public bool stateHasKey = false;
 
-    float speed = 15f;
+    public float movementSpeed = 6f;
+
+    private bool isDialogueActive = false;
+    private Rigidbody playerRigidbody;
+
+
+    float speed = 18f;
 
     float yMove = 0f;
 
     Rigidbody rb;
-    bool stateIsOnObstacle = false;
     bool stateIsGrounded = false;
     bool stateIsLaddered = false;
     bool stateIsClimbing = false;
@@ -34,7 +39,7 @@ public class PlayerController : MonoBehaviour
         Debug.LogWarning(PlayerPrefs.GetInt("Sequence"));
 
 
-        if(PlayerPrefs.HasKey("Net"))
+        if (PlayerPrefs.HasKey("Net"))
             Debug.LogWarning(PlayerPrefs.GetInt("Net"));
         else
             Debug.LogWarning("Haven't gotten Net quest.");
@@ -64,14 +69,17 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("Tutorial");
         }
-            
+
         if (PlayerPrefs.HasKey("SpawnX"))
             spawnPoint = new Vector3(PlayerPrefs.GetFloat("SpawnX"), PlayerPrefs.GetFloat("SpawnY"), 0f);
         else
             spawnPoint = gameObject.transform.position;
 
         transform.position = spawnPoint;
+
         rb = this.GetComponent<Rigidbody>();
+
+        playerRigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -86,7 +94,7 @@ public class PlayerController : MonoBehaviour
         yMove = Input.GetAxisRaw("Vertical");
         movement = new Vector3(Input.GetAxisRaw("Horizontal") * speed, rb.velocity.y, 0f);//*Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.W) && stateIsGrounded && !stateIsClimbing || Input.GetKeyDown(KeyCode.Space) && stateIsGrounded && !stateIsClimbing || Input.GetKeyDown(KeyCode.Space) && stateIsOnObstacle && !stateIsClimbing && !stateIsGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && stateIsGrounded && !stateIsClimbing || Input.GetKeyDown(KeyCode.Space) && stateIsGrounded && !stateIsClimbing)
         {
             rb.AddForce(new Vector3(0, 40f, 0), ForceMode.Impulse);
             stateIsGrounded = false;
@@ -97,89 +105,88 @@ public class PlayerController : MonoBehaviour
             stateIsClimbing = true;
         }
 
-         if (stateIsWatered)
-        {
+        /*if (stateIsWatered)
+        {        
+            if (PlayerPrefs.GetInt("Sequence") >= 11)
+            {
                 stateCanSwim = true;
-        }
+            }
+            else
+            {
+                stateCanSwim = false;
+            }
+                
+        }*/
 
 
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        
-        /*if (Input.GetKeyDown(KeyCode.P))
+
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            
+
             PlayerPrefs.DeleteKey("SpawnX");
             PlayerPrefs.DeleteKey("Sequence");
             PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "NewTutorial_V1");
-            SceneManager.LoadScene("NewTutorial_V1");
-            
+            PlayerPrefs.SetString("SceneSpawn", "Tutorial");
+            SceneManager.LoadScene("Tutorial");
+
 
             PlayerPrefs.DeleteKey("Net");
             PlayerPrefs.DeleteKey("Lighter");
             PlayerPrefs.DeleteKey("Box");
             PlayerPrefs.DeleteKey("Mop");
-        }*/
+        }
 
         if (Input.GetKeyDown(KeyCode.O))
         {
-            /*PlayerPrefs.SetFloat("SpawnX", -47);
-            PlayerPrefs.SetFloat("SpawnY", 45);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "3.3 Final Level");
-            SceneManager.LoadScene("3.3 Final Level");
-            /*PlayerPrefs.SetFloat("SpawnX", 25);
-            PlayerPrefs.SetFloat("SpawnY", 6);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "3.2 Legit");
-            SceneManager.LoadScene("3.2 Legit");
-            PlayerPrefs.SetFloat("SpawnX", 570);
-            PlayerPrefs.SetFloat("SpawnY", 20);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "Level 3.1 Outside");
-            SceneManager.LoadScene("Level 3.1 Outside");
-            PlayerPrefs.SetFloat("SpawnX", 570);
-            PlayerPrefs.SetFloat("SpawnY", 76);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "Level2");
-            SceneManager.LoadScene("Level2");
-            PlayerPrefs.SetFloat("SpawnX", 202);
-            PlayerPrefs.SetFloat("SpawnY", 394);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
-            SceneManager.LoadScene("SubTunnels");///For SubTunnel A (Left SubTunnel)
-            PlayerPrefs.SetFloat("SpawnX", 219);
-            PlayerPrefs.SetFloat("SpawnY", 374);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
-            SceneManager.LoadScene("SubTunnels");///For SubTunnel B (Middle SubTunnel)
-            PlayerPrefs.SetFloat("SpawnX", 241);
-            PlayerPrefs.SetFloat("SpawnY", 378);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "SubTunnels");
-            SceneManager.LoadScene("SubTunnels");///For SubTunnel C (Right SubTunnel)*/
             PlayerPrefs.SetFloat("SpawnX", 0);
             PlayerPrefs.SetFloat("SpawnY", 5);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "3.3");
-            SceneManager.LoadScene("3.3");/*/*/
+            SceneManager.LoadScene("3.3");/*/
+            /*PlayerPrefs.SetFloat("SpawnX", 379);
+            PlayerPrefs.SetFloat("SpawnY", 73);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "Tutorial");
+            SceneManager.LoadScene("Tutorial");/*
+            PlayerPrefs.SetFloat("SpawnX", 428);
+            PlayerPrefs.SetFloat("SpawnY", 144);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Tunnels");
+            PlayerPrefs.SetString("SceneSpawn", "Tunnels");*/
+            /*SceneManager.LoadScene("Tunnels");
+            PlayerPrefs.SetFloat("SpawnX", 366);
+            PlayerPrefs.SetFloat("SpawnY", 42);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Industrial");
+            PlayerPrefs.SetString("SceneSpawn", "Industrial");
+            SceneManager.LoadScene("Industrial");*/
         }
 
         if (Input.GetKeyDown(KeyCode.L))
         {
             PlayerPrefs.DeleteKey("SpawnX");
             PlayerPrefs.DeleteKey("Checkpoint");
+        }
+
+        if (!isDialogueActive)
+        {
+            // Handle player movement
+            float horizontalInput = Input.GetAxis("Horizontal");
+            float verticalInput = Input.GetAxis("Vertical");
+
+            Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * movementSpeed;
+            playerRigidbody.velocity = new Vector3(movement.x, playerRigidbody.velocity.y, movement.z);
+        }
+        else
+        {
+            // Disable player movement during dialogue
+            playerRigidbody.velocity = Vector3.zero;
         }
     }
     void FixedUpdate()
@@ -195,10 +202,10 @@ public class PlayerController : MonoBehaviour
         {
             rb.useGravity = false;
 
-            if(stateCanSwim || stateIsClimbing)
-                rb.velocity = new Vector3(rb.velocity.x, yMove*speed, rb.velocity.z);
+            if (stateCanSwim || stateIsClimbing)
+                rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
             else
-                rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(yMove, 0, 1f) * speed, rb.velocity.z); 
+                rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(yMove, 0, 1f) * speed, rb.velocity.z);
         }
         else
             rb.useGravity = true;
@@ -207,16 +214,13 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Ground")
             stateIsGrounded = true;
-        if (collision.gameObject.tag == "Obstacle")
-            stateIsOnObstacle = true;
-
 
         if (collision.gameObject.tag == "Enemy")
         {
             Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-            
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -249,6 +253,16 @@ public class PlayerController : MonoBehaviour
         {
             stateIsWatered = false;
             stateCanSwim = false;
-        }         
+        }
+    }
+
+    public void DisableMovement()
+    {
+        isDialogueActive = true;
+    }
+
+    public void EnableMovement()
+    {
+        isDialogueActive = false;
     }
 }
