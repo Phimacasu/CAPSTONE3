@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8770679859439492245}
+  - component: {fileID: 1208714996007933130}
   m_Layer: 0
   m_Name: Experimental_Enemy
   m_TagString: Enemy
@@ -31,6 +32,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208714996007933130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185041330991584791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9f55ec2ddc9bd4fbacb405be916ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4
+  chaseSpeed: 7
+  attackRange: 10
+  attackDamage: 1
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 15
+  attackCooldown: 5
 --- !u!1001 &7025043170473004848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,28 +204,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6990970093308376579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6920325128846062471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca9f55ec2ddc9bd4fbacb405be916ed2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 4
-  chaseSpeed: 7
-  attackRange: 10
-  attackDamage: 1
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  player: {fileID: 0}
-  respawnPoint: {fileID: 0}
-  playerPrefab: {fileID: 0}
-  bulletPrefab: {fileID: 0}
-  bulletSpeed: 15
-  attackCooldown: 5

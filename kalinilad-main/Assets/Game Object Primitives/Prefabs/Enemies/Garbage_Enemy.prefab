@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3611890454564980145}
+  - component: {fileID: 5096784360398464663}
   m_Layer: 0
   m_Name: Garbage_Enemy
   m_TagString: Enemy
@@ -31,6 +32,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5096784360398464663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3611890454564980144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca9f55ec2ddc9bd4fbacb405be916ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  chaseSpeed: 4
+  attackRange: 10
+  attackDamage: 1
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 3365289628300563567, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  respawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 10
+  attackCooldown: 5
 --- !u!1 &3611890454868761747
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +68,6 @@ GameObject:
   - component: {fileID: 3611890454868761744}
   - component: {fileID: 3611890454868761759}
   - component: {fileID: 3611890454868761758}
-  - component: {fileID: 3611890454868761745}
   - component: {fileID: 4403942421725840210}
   m_Layer: 0
   m_Name: Enemy_Garbage_01_1
@@ -129,31 +154,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.4, y: 10.3, z: 0.2}
   m_Center: {x: -0.3, y: 0, z: 0}
---- !u!114 &3611890454868761745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3611890454868761747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca9f55ec2ddc9bd4fbacb405be916ed2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  chaseSpeed: 4
-  attackRange: 10
-  attackDamage: 1
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  player: {fileID: 0}
-  respawnPoint: {fileID: 0}
-  playerPrefab: {fileID: 0}
-  bulletPrefab: {fileID: 0}
-  bulletSpeed: 10
-  attackCooldown: 5
 --- !u!95 &4403942421725840210
 Animator:
   serializedVersion: 3
