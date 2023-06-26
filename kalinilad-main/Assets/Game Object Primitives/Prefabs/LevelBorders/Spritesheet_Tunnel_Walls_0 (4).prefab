@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5814085962995319786}
   - component: {fileID: 5814085962995319796}
-  - component: {fileID: 5814085962995319787}
   m_Layer: 0
   m_Name: Spritesheet_Tunnel_Walls_0 (3)
   m_TagString: Ground
@@ -83,19 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &5814085962995319787
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5814085962995319785}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.67, y: 9.86, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5814085964451888276
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,5 +177,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.67, y: 9.86, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.29, y: 18.2, z: 0}
+  m_Center: {x: 0.1, y: -4.17, z: 0}

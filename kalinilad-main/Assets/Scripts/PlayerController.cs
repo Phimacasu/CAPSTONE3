@@ -124,7 +124,7 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        /*if (Input.GetKeyDown(KeyCode.P))
         {
 
             PlayerPrefs.DeleteKey("SpawnX");
@@ -138,35 +138,47 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.DeleteKey("Lighter");
             PlayerPrefs.DeleteKey("Box");
             PlayerPrefs.DeleteKey("Mop");
-        }
+        }*/
 
-        if (Input.GetKeyDown(KeyCode.O))
+        /*if (Input.GetKeyDown(KeyCode.O))
         {
-            PlayerPrefs.SetFloat("SpawnX", 0);
+            /*PlayerPrefs.SetFloat("SpawnX", 0);
             PlayerPrefs.SetFloat("SpawnY", 5);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "3.3");
-            SceneManager.LoadScene("3.3");/*/
+            SceneManager.LoadScene("3.3");*/
             /*PlayerPrefs.SetFloat("SpawnX", 379);
             PlayerPrefs.SetFloat("SpawnY", 73);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "Tutorial");
-            SceneManager.LoadScene("Tutorial");/*
-            PlayerPrefs.SetFloat("SpawnX", 428);
-            PlayerPrefs.SetFloat("SpawnY", 144);
+            SceneManager.LoadScene("Tutorial");*/
+            /*PlayerPrefs.SetFloat("SpawnX", 428);
+            PlayerPrefs.SetFloat("SpawnY", 143);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Tunnels");
-            PlayerPrefs.SetString("SceneSpawn", "Tunnels");*/
-            /*SceneManager.LoadScene("Tunnels");
-            PlayerPrefs.SetFloat("SpawnX", 366);
+            PlayerPrefs.SetString("SceneSpawn", "Tunnels");
+            /*SceneManager.LoadScene("Tunnels");*/
+            /*PlayerPrefs.SetFloat("SpawnX", 366);
             PlayerPrefs.SetFloat("SpawnY", 42);
             PlayerPrefs.SetInt("Sequence", 30);
             PlayerPrefs.DeleteKey("Industrial");
             PlayerPrefs.SetString("SceneSpawn", "Industrial");
-            SceneManager.LoadScene("Industrial");*/
-        }
+            SceneManager.LoadScene("Industrial");
+            /*PlayerPrefs.SetFloat("SpawnX", 21);
+            PlayerPrefs.SetFloat("SpawnY", 223);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("Checkpoint");
+            PlayerPrefs.SetString("SceneSpawn", "Hub");
+            SceneManager.LoadScene("Hub");
+            PlayerPrefs.SetFloat("SpawnX", 111);
+            PlayerPrefs.SetFloat("SpawnY", 83);
+            PlayerPrefs.SetInt("Sequence", 30);
+            PlayerPrefs.DeleteKey("CommercialAndCorporate");
+            PlayerPrefs.SetString("SceneSpawn", "CommercialAndCorporate");
+            SceneManager.LoadScene("CommercialAndCorporate");
+        }*/
 
         if (Input.GetKeyDown(KeyCode.L))
         {

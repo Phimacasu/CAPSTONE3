@@ -291,6 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4185654199707250278}
   - component: {fileID: 3615039995858858288}
+  - component: {fileID: 2472799485576360666}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_4
   m_TagString: Untagged
@@ -363,6 +364,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2472799485576360666
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927233338659965759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.37, y: 0.48, z: 0.2}
+  m_Center: {x: 2.69, y: 0, z: 0}
 --- !u!1 &6102231932328218555
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3288685303915825033}
-  - component: {fileID: 3288685303915825078}
   m_Layer: 0
   m_Name: TunnelFloor 5.5
   m_TagString: Ground
@@ -36,19 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3288685303915825078
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3288685303915825079}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 12.3, y: 0.58, z: 1}
-  m_Center: {x: 4.7, y: -2.06, z: 0}
 --- !u!1 &3288685304148516341
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3288685304577063452}
   - component: {fileID: 3288685304577063455}
+  - component: {fileID: 5098243795124292770}
   m_Layer: 0
   m_Name: SewerTunnel02_LongSprites_WithPerspective 1_4
   m_TagString: Ground
@@ -213,6 +200,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &5098243795124292770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3288685304577063453}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.64, y: 0.58, z: 1}
+  m_Center: {x: 4.7, y: -0.15, z: 0}
 --- !u!1 &3288685305108331061
 GameObject:
   m_ObjectHideFlags: 0
