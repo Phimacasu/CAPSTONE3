@@ -15,6 +15,8 @@ public class EnemyController : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 1000000f;
     public float attackCooldown = 5f;
+    [SerializeField] private AudioSource moveSFX;
+    [SerializeField] private AudioSource throwSFX;
 
     private int currentWaypointIndex = 0;
     private bool isChasing = false;
@@ -40,6 +42,7 @@ public class EnemyController : MonoBehaviour
 
     private void Patrol()
     {
+        moveSFX.Play();
         if (waypoints.Length == 0)
             return;
 
@@ -59,6 +62,7 @@ public class EnemyController : MonoBehaviour
 
     private void ChasePlayer()
     {
+        moveSFX.Play();
         transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
 
         if (Vector2.Distance(transform.position, player.position) > attackRange)
@@ -85,6 +89,7 @@ public class EnemyController : MonoBehaviour
 
     private void ThrownProjectile()
     {
+        throwSFX.Play();
         if (attackCooldown <= 0)
         {
             Vector2 direction = player.transform.position - transform.position;

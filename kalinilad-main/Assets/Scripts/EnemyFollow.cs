@@ -15,6 +15,7 @@ public class EnemyFollow : MonoBehaviour
 
     private int currentWaypointIndex = 0;
     private bool isChasing = false;
+    [SerializeField] private AudioSource moveSFX;
 
     private void Start()
     {
@@ -36,6 +37,7 @@ public class EnemyFollow : MonoBehaviour
 
     private void Patrol()
     {
+        moveSFX.Play();
         if (waypoints.Length == 0)
             return;
 
@@ -55,6 +57,7 @@ public class EnemyFollow : MonoBehaviour
 
     private void ChasePlayer()
     {
+        moveSFX.Play();
         transform.position = Vector2.MoveTowards(transform.position, player.position, chaseSpeed * Time.deltaTime);
 
         if (Vector2.Distance(transform.position, player.position) > attackRange)

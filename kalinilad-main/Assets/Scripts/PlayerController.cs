@@ -15,7 +15,12 @@ public class PlayerController : MonoBehaviour
 
     private bool isDialogueActive = false;
     private Rigidbody playerRigidbody;
-
+    [SerializeField] private AudioSource moveSFX;
+    [SerializeField] private AudioSource jumpSFX;
+    [SerializeField] private AudioSource ladderSFX;
+    [SerializeField] private AudioSource swimSFX;
+    [SerializeField] private AudioSource MeleeHurtSFX;
+    [SerializeField] private AudioSource ProjHurtSFX;
 
     float speed = 18f;
 
@@ -96,12 +101,14 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && stateIsGrounded && !stateIsClimbing || Input.GetKeyDown(KeyCode.Space) && stateIsGrounded && !stateIsClimbing)
         {
+            jumpSFX.Play();
             rb.AddForce(new Vector3(0, 40f, 0), ForceMode.Impulse);
             stateIsGrounded = false;
         }
 
         if (stateIsLaddered && Mathf.Abs(yMove) > 0f)
         {
+            ladderSFX.Play();
             stateIsClimbing = true;
         }
 
@@ -148,47 +155,48 @@ public class PlayerController : MonoBehaviour
             PlayerPrefs.DeleteKey("Checkpoint");
             PlayerPrefs.SetString("SceneSpawn", "3.3");
             SceneManager.LoadScene("3.3");*/
-            /*PlayerPrefs.SetFloat("SpawnX", 379);
-            PlayerPrefs.SetFloat("SpawnY", 73);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "Tutorial");
-            SceneManager.LoadScene("Tutorial");*/
-            /*PlayerPrefs.SetFloat("SpawnX", 428);
-            PlayerPrefs.SetFloat("SpawnY", 143);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Tunnels");
-            PlayerPrefs.SetString("SceneSpawn", "Tunnels");
-            /*SceneManager.LoadScene("Tunnels");*/
-            /*PlayerPrefs.SetFloat("SpawnX", 366);
-            PlayerPrefs.SetFloat("SpawnY", 42);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Industrial");
-            PlayerPrefs.SetString("SceneSpawn", "Industrial");
-            SceneManager.LoadScene("Industrial");
-            /*PlayerPrefs.SetFloat("SpawnX", 21);
-            PlayerPrefs.SetFloat("SpawnY", 223);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("Checkpoint");
-            PlayerPrefs.SetString("SceneSpawn", "Hub");
-            SceneManager.LoadScene("Hub");
-            PlayerPrefs.SetFloat("SpawnX", 111);
-            PlayerPrefs.SetFloat("SpawnY", 83);
-            PlayerPrefs.SetInt("Sequence", 30);
-            PlayerPrefs.DeleteKey("CommercialAndCorporate");
-            PlayerPrefs.SetString("SceneSpawn", "CommercialAndCorporate");
-            SceneManager.LoadScene("CommercialAndCorporate");
-        }*/
+        /*PlayerPrefs.SetFloat("SpawnX", 379);
+        PlayerPrefs.SetFloat("SpawnY", 73);
+        PlayerPrefs.SetInt("Sequence", 30);
+        PlayerPrefs.DeleteKey("Checkpoint");
+        PlayerPrefs.SetString("SceneSpawn", "Tutorial");
+        SceneManager.LoadScene("Tutorial");*/
+        /*PlayerPrefs.SetFloat("SpawnX", 428);
+        PlayerPrefs.SetFloat("SpawnY", 143);
+        PlayerPrefs.SetInt("Sequence", 30);
+        PlayerPrefs.DeleteKey("Tunnels");
+        PlayerPrefs.SetString("SceneSpawn", "Tunnels");
+        /*SceneManager.LoadScene("Tunnels");*/
+        /*PlayerPrefs.SetFloat("SpawnX", 366);
+        PlayerPrefs.SetFloat("SpawnY", 42);
+        PlayerPrefs.SetInt("Sequence", 30);
+        PlayerPrefs.DeleteKey("Industrial");
+        PlayerPrefs.SetString("SceneSpawn", "Industrial");
+        SceneManager.LoadScene("Industrial");
+        /*PlayerPrefs.SetFloat("SpawnX", 21);
+        PlayerPrefs.SetFloat("SpawnY", 223);
+        PlayerPrefs.SetInt("Sequence", 30);
+        PlayerPrefs.DeleteKey("Checkpoint");
+        PlayerPrefs.SetString("SceneSpawn", "Hub");
+        SceneManager.LoadScene("Hub");
+        PlayerPrefs.SetFloat("SpawnX", 111);
+        PlayerPrefs.SetFloat("SpawnY", 83);
+        PlayerPrefs.SetInt("Sequence", 30);
+        PlayerPrefs.DeleteKey("CommercialAndCorporate");
+        PlayerPrefs.SetString("SceneSpawn", "CommercialAndCorporate");
+        SceneManager.LoadScene("CommercialAndCorporate");
+    }*/
 
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            PlayerPrefs.DeleteKey("SpawnX");
-            PlayerPrefs.DeleteKey("Checkpoint");
-        }
+        /*if (Input.GetKeyDown(KeyCode.L))
+         {
+             PlayerPrefs.DeleteKey("SpawnX");
+             PlayerPrefs.DeleteKey("Checkpoint");
+         }*/
 
         if (!isDialogueActive)
         {
             // Handle player movement
+            moveSFX.Play();
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
@@ -250,7 +258,10 @@ public class PlayerController : MonoBehaviour
             stateIsLaddered = true;
 
         if (other.gameObject.tag == "Water")
+        {
+            swimSFX.Play();
             stateIsWatered = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)
