@@ -10,6 +10,7 @@ public class QuestStart : MonoBehaviour
     public GameObject keyPrefab;
     public GameObject player;
 
+    private bool isPlayerMoving = true;
     private bool hasQuestItem = false;
     private bool isDialogueTriggered = false;
     private bool isQuestCompleted = false;
@@ -26,12 +27,16 @@ public class QuestStart : MonoBehaviour
     {
         if (other.CompareTag("QuestStart") && !isQuestCompleted)
         {
-            if (!isDialogueTriggered)
+            if (!isDialogueTriggered && isPlayerMoving)
             {
                 // Disable player movement
                 if (playerController != null)
                 {
                     playerController.DisableMovement();
+                    float horizontalInput = Input.GetAxis("Horizontal");
+                    float verticalInput = Input.GetAxis("Vertical");
+                    Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * Time.deltaTime;
+                    player.transform.Translate(movement);
                 }
 
                 // Trigger quest start dialogue
