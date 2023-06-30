@@ -291,6 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1178703866095125119}
   - component: {fileID: 1178703866095125118}
+  - component: {fileID: 2603054303968538444}
   m_Layer: 0
   m_Name: SewerTunnel01_LongSprites_WithPerspective 1_5
   m_TagString: Ground
@@ -363,6 +364,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2603054303968538444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178703866095125116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.15, y: 0.5, z: 0.2}
+  m_Center: {x: 5.32, y: 0, z: 0}
 --- !u!1 &1178703866342137705
 GameObject:
   m_ObjectHideFlags: 0

@@ -541,6 +541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7002369961015398065}
   - component: {fileID: 4718314302616583183}
+  - component: {fileID: 6838547285107059170}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_3
   m_TagString: Ground
@@ -613,6 +614,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &6838547285107059170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3380488474763675555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.56, y: 0.81, z: 0.2}
+  m_Center: {x: 5.5, y: -0.25, z: 0}
 --- !u!1 &4372311156000705772
 GameObject:
   m_ObjectHideFlags: 0
