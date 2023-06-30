@@ -9,6 +9,7 @@ public class NextScene : MonoBehaviour
     public int nextSceneIndex;
 
     private bool hasKey;
+    [SerializeField] private AudioSource teleportSFX;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -16,6 +17,7 @@ public class NextScene : MonoBehaviour
         {
             if (hasKey)
             {
+                teleportSFX.Play();
                 SceneManager.LoadScene(nextSceneIndex);
             }
             else

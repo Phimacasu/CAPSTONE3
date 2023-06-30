@@ -17,8 +17,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRigidbody;
     [SerializeField] private AudioSource moveSFX;
     [SerializeField] private AudioSource jumpSFX;
-    [SerializeField] private AudioSource ladderSFX;
-    [SerializeField] private AudioSource swimSFX;
     [SerializeField] private AudioSource MeleeHurtSFX;
     [SerializeField] private AudioSource ProjHurtSFX;
 
@@ -108,7 +106,6 @@ public class PlayerController : MonoBehaviour
 
         if (stateIsLaddered && Mathf.Abs(yMove) > 0f)
         {
-            ladderSFX.Play();
             stateIsClimbing = true;
         }
 
@@ -196,7 +193,6 @@ public class PlayerController : MonoBehaviour
         if (!isDialogueActive)
         {
             // Handle player movement
-            moveSFX.Play();
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
@@ -237,16 +233,31 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
+            MeleeHurtSFX.Play();
             Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
+        if (collision.gameObject.tag == "ProjectileEnemy")
+        {
+            ProjHurtSFX.Play();
+            Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
+            MeleeHurtSFX.Play();
+            Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        if (other.gameObject.tag == "ProjectileEnemy")
+        {
+            ProjHurtSFX.Play();
             Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
@@ -259,7 +270,6 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.tag == "Water")
         {
-            swimSFX.Play();
             stateIsWatered = true;
         }
     }

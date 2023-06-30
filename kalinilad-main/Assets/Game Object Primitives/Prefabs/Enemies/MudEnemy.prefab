@@ -40,11 +40,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6241327481238694175, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.017584324
+      value: -0.017614841
       objectReference: {fileID: 0}
     - target: {fileID: -6241327481238694175, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.010619879
+      value: -0.010620117
+      objectReference: {fileID: 0}
+    - target: {fileID: -6241327481238694175, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
+      propertyPath: m_Bounds.m_Extent.x
+      value: 1.657615
       objectReference: {fileID: 0}
     - target: {fileID: -3379182338980231117, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_RootOrder
@@ -92,31 +96,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: 0.014985561
+      value: 0.01487875
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.0022702217
+      value: -0.0022883415
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 5.970015
+      value: 5.9700003
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 5.7777305
+      value: 5.7777185
       objectReference: {fileID: 0}
     - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.00009953976
+      value: 0.000022530556
       objectReference: {fileID: 0}
     - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.00060009956
+      value: -0.00056934357
       objectReference: {fileID: 0}
     - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 1.6565301
+      value: 1.6565304
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
+      propertyPath: m_Bounds.m_Extent.y
+      value: 2.1006002
       objectReference: {fileID: 0}
     - target: {fileID: 6287557274871143378, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Name
@@ -151,29 +159,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 13.45, y: 11.65, z: 1}
   m_Center: {x: 0, y: 7.53, z: 0}
---- !u!114 &1502923949583204819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3593796093213384429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2abbf013b8098e748963f6b9f1af22a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
-  chaseSpeed: 2
-  attackRange: 1
-  attackDamage: 1
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  player: {fileID: 0}
-  respawnPoint: {fileID: 0}
-  playerPrefab: {fileID: 0}
-  moveSFX: {fileID: 442185728586893648}
 --- !u!82 &442185728586893648
 AudioSource:
   m_ObjectHideFlags: 0
@@ -185,7 +170,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0bb21f77392244146a4b001953ab9bdc, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -194,8 +179,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.1
+  MaxDistance: 1
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -270,3 +255,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1502923949583204819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3593796093213384429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abbf013b8098e748963f6b9f1af22a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  chaseSpeed: 2
+  attackRange: 1
+  attackDamage: 1
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 0}
+  moveSFX: {fileID: 442185728586893648}

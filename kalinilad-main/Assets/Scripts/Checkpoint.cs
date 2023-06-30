@@ -12,12 +12,16 @@ public class Checkpoint : MonoBehaviour
 
     [SerializeField]
     string targetSpawnScene;
+    [SerializeField] private AudioSource checkpointSFX;
 
     // Start is called before the first frame update
     void Start()
     {
         if (PlayerPrefs.GetInt("Checkpoint") == numCheckpoint)
+        {
+            checkpointSFX.Play();
             gameObject.GetComponent<SpriteRenderer>().material = matActive;
+        }
     }
 
     // Update is called once per frame

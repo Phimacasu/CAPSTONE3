@@ -6,6 +6,7 @@ public class Teleport : MonoBehaviour
 {
     public GameObject portal;
     public GameObject player;
+    [SerializeField] private AudioSource teleportSFX;
 
     private void Start()
     {
@@ -16,6 +17,7 @@ public class Teleport : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
+            teleportSFX.Play();
             player.transform.position = new Vector3(portal.transform.position.x, portal.transform.position.y, portal.transform.position.z);
         }
     }
