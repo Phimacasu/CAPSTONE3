@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8440022982954547952}
-  - component: {fileID: 8440022982954547959}
   m_Layer: 0
   m_Name: TunnelFloor4.7
   m_TagString: Ground
@@ -38,19 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &8440022982954547959
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8440022982954547958}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.58, y: 1, z: 1}
-  m_Center: {x: 3.97, y: -0.8, z: 0}
 --- !u!1 &8440022983093704249
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8440022984620362347}
   - component: {fileID: 8440022984620362340}
+  - component: {fileID: 1304562063319384725}
   m_Layer: 0
   m_Name: Tunnels_Floor
   m_TagString: Ground
@@ -543,6 +530,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1304562063319384725
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8440022984620362346}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.79, y: -0.12}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 1.08}
+    newSize: {x: 2, y: 1.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.29, y: 0.58}
+  m_EdgeRadius: 0
 --- !u!1 &8440022984771454928
 GameObject:
   m_ObjectHideFlags: 0

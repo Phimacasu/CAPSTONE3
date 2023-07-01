@@ -28,7 +28,7 @@ GraphicsSettings:
   m_LensFlare:
     m_Mode: 1
     m_Shader: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
-  m_VideoShadersIncludeMode: 2
+  m_VideoShadersIncludeMode: 1
   m_AlwaysIncludedShaders:
   - {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
@@ -39,6 +39,17 @@ GraphicsSettings:
   - {fileID: 17000, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 16000, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 16001, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 4800000, guid: e35a31e1679aeff489e202f5cc4853d5, type: 3}
+  - {fileID: -6465566751694194690, guid: fed117788362eee468a640623a3b4564, type: 3}
+  - {fileID: 4800000, guid: c7d04ca57e5449d49ad9cee1c604bc26, type: 3}
+  - {fileID: 4800000, guid: d79e1c784eaf80c4585c0be7391f757a, type: 3}
+  - {fileID: 4800000, guid: 7e60080c8cd24a2468cb08b4bfee5606, type: 3}
+  - {fileID: 4800000, guid: b34a29e523cb9d545881e193a079f2df, type: 3}
+  - {fileID: 4800000, guid: 02e071f10b6a15d4d87dac88ce529302, type: 3}
+  - {fileID: -6465566751694194690, guid: 7272fb0395dfd1e499e510bacdce0618, type: 3}
+  - {fileID: -6465566751694194690, guid: 7272fb0395dfd1e499e510bacdce0618, type: 3}
+  - {fileID: -6465566751694194690, guid: fed117788362eee468a640623a3b4564, type: 3}
+  - {fileID: 4800000, guid: e35a31e1679aeff489e202f5cc4853d5, type: 3}
   m_PreloadedShaders: []
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_CustomRenderPipeline: {fileID: 0}
@@ -63,4 +74,4 @@ GraphicsSettings:
   m_LightsUseLinearIntensity: 0
   m_LightsUseColorTemperature: 0
   m_DefaultRenderingLayerMask: 1
-  m_LogWhenShaderIsCompiled: 0
+  m_LogWhenShaderIsCompiled: 1

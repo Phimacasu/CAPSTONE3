@@ -13,6 +13,8 @@ public class EnemyFollow : MonoBehaviour
     public Transform respawnPoint;
     public GameObject playerPrefab;
 
+    private Animator enemyAnimator;
+
     private int currentWaypointIndex = 0;
     private bool isChasing = false;
     [SerializeField] private AudioSource moveSFX;
@@ -21,6 +23,7 @@ public class EnemyFollow : MonoBehaviour
     {
         // Find the player using the tag
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        enemyAnimator = GetComponent<Animator>(); // get animator component
     }
 
     private void Update()
@@ -53,6 +56,9 @@ public class EnemyFollow : MonoBehaviour
         {
             isChasing = true;
         }
+
+        enemyAnimator.SetBool("IsWalking",false);
+        enemyAnimator.SetBool("IsAttacking",false);
     }
 
     private void ChasePlayer()
@@ -69,6 +75,9 @@ public class EnemyFollow : MonoBehaviour
         {
             AttackPlayer();
         }
+
+        enemyAnimator.SetBool("IsWalking",true);
+        enemyAnimator.SetBool("IsAttacking",true);
     }
 
     private void AttackPlayer()
@@ -79,5 +88,7 @@ public class EnemyFollow : MonoBehaviour
         // Respawn the player at the last checkpoint
         GameObject newPlayer = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
         newPlayer.tag = "Player";
+
+        enemyAnimator.SetBool("IsAttacking",true);
     }
 }
