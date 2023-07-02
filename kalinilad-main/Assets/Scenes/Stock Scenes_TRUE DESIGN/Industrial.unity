@@ -17453,6 +17453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSprite: {fileID: -4460353566448895622, guid: 39756cf90e638594f84143569365160f, type: 3}
+  SwitchActivateSFX: {fileID: 0}
 --- !u!65 &935920856
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37219,6 +37220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSprite: {fileID: -4460353566448895622, guid: 39756cf90e638594f84143569365160f, type: 3}
+  SwitchActivateSFX: {fileID: 0}
 --- !u!65 &1813223366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39456,6 +39458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSprite: {fileID: -3886527410372190422, guid: 39756cf90e638594f84143569365160f, type: 3}
+  SwitchActivateSFX: {fileID: 0}
 --- !u!65 &1899819181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41218,6 +41221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSprite: {fileID: -4460353566448895622, guid: 39756cf90e638594f84143569365160f, type: 3}
+  SwitchActivateSFX: {fileID: 0}
 --- !u!65 &1980061768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42110,6 +42114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSprite: {fileID: -3886527410372190422, guid: 39756cf90e638594f84143569365160f, type: 3}
+  SwitchActivateSFX: {fileID: 0}
 --- !u!65 &2021245572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43069,6 +43074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newSprite: {fileID: -4460353566448895622, guid: 39756cf90e638594f84143569365160f, type: 3}
+  SwitchActivateSFX: {fileID: 0}
 --- !u!65 &2052899240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45786,7 +45792,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3180106790402021016, guid: d9094f8dde6e0a440a55625cac52279e, type: 3}
       propertyPath: numberSequence
-      value: 15
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6779252625351731213, guid: d9094f8dde6e0a440a55625cac52279e, type: 3}
       propertyPath: m_Name

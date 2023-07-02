@@ -19,7 +19,6 @@ public class Checkpoint : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Checkpoint") == numCheckpoint)
         {
-            checkpointSFX.Play();
             gameObject.GetComponent<SpriteRenderer>().material = matActive;
         }
     }
@@ -33,6 +32,7 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        checkpointSFX.Play();
         Debug.LogWarning("Checkpoint!");
         PlayerPrefs.SetInt("Checkpoint", numCheckpoint);
         gameObject.GetComponent<SpriteRenderer>().material = matActive;

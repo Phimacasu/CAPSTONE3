@@ -10,7 +10,6 @@ public class LadderMovement : MonoBehaviour
     private bool isClimbing;
 
     [SerializeField] private Rigidbody rb;
-    [SerializeField] private AudioSource ladderSFX;
 
     // Update is called once per frame
     void Update()
@@ -28,7 +27,6 @@ public class LadderMovement : MonoBehaviour
     {
         if (isClimbing)
         {
-            ladderSFX.Play();
             rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
         }
         else
@@ -39,7 +37,7 @@ public class LadderMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("Ladder"))
+        if (collision.CompareTag("WoodLadder") || collision.CompareTag("MetalLadder"))
         {
             Debug.Log("works");
             isLadder = true;

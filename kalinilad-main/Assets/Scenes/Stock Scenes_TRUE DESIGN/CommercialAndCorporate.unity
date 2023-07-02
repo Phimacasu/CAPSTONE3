@@ -67356,13 +67356,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 911017245}
     m_Modifications:
+    - target: {fileID: 2058427465767579981, guid: a65a2352d20ebf844a7f0e2fee372a02, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6785676316775003516, guid: a65a2352d20ebf844a7f0e2fee372a02, type: 3}
       propertyPath: m_Name
       value: UpperCitySwitch3 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6919944684940751226, guid: a65a2352d20ebf844a7f0e2fee372a02, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6919944684940751226, guid: a65a2352d20ebf844a7f0e2fee372a02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -102347,7 +102351,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4009896085097078832, guid: 87c40040a459ebf48a5b8d75fec3b0e6, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4009896085097078832, guid: 87c40040a459ebf48a5b8d75fec3b0e6, type: 3}
       propertyPath: m_LocalScale.x

@@ -123,6 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 62321857409585801}
   - component: {fileID: -3127980370412692394}
+  - component: {fileID: 6486558006185098361}
   m_Layer: 0
   m_Name: Box No1 Small (UpperCity2)
   m_TagString: Ground
@@ -241,3 +242,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6486558006185098361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451565060782504514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef7ea25d71d6aa499dc43f992f6345d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxSFX: {fileID: -3127980370412692394}

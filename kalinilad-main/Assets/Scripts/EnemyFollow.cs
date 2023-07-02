@@ -37,10 +37,10 @@ public class EnemyFollow : MonoBehaviour
 
     private void Patrol()
     {
-        moveSFX.Play();
         if (waypoints.Length == 0)
             return;
 
+        moveSFX.Play();
         Transform currentWaypoint = waypoints[currentWaypointIndex];
         transform.position = Vector2.MoveTowards(transform.position, currentWaypoint.position, moveSpeed * Time.deltaTime);
 
