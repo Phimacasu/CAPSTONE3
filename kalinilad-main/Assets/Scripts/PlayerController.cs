@@ -92,7 +92,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (DialogueManager.isActive == true)
+        {
+            movement = Vector3.zero;
             return;
+        }
 
         //Debug.Log(stateCanSwim);
         //Debug.Log(stateIsWatered);
@@ -112,18 +115,10 @@ public class PlayerController : MonoBehaviour
             stateIsClimbing = true;
         }
 
-        /*if (stateIsWatered)
-        {        
-            if (PlayerPrefs.GetInt("Sequence") >= 11)
-            {
+        if (stateIsWatered)
+        {
                 stateCanSwim = true;
-            }
-            else
-            {
-                stateCanSwim = false;
-            }
-                
-        }*/
+        }
 
 
         if (Input.GetKeyDown(KeyCode.R))
