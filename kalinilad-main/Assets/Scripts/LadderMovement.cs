@@ -37,7 +37,7 @@ public class LadderMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("Ladder"))
+        if (collision.CompareTag("WoodLadder") || collision.CompareTag("MetalLadder"))
         {
             Debug.Log("works");
             isLadder = true;

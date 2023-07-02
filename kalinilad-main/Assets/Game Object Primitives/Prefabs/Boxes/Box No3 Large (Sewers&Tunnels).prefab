@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2211048187453553284}
   - component: {fileID: -6235318644801547809}
+  - component: {fileID: 8229184881169801647}
   m_Layer: 0
   m_Name: Box No3 Large (Sewers&Tunnels)
   m_TagString: Ground
@@ -128,6 +129,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8229184881169801647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184999680213750351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef7ea25d71d6aa499dc43f992f6345d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boxSFX: {fileID: -6235318644801547809}
 --- !u!1 &6216258842789406109
 GameObject:
   m_ObjectHideFlags: 0

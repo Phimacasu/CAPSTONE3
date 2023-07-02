@@ -5,11 +5,13 @@ using UnityEngine;
 public class MessageAppear : MonoBehaviour
 {
     public GameObject Dialogue;
+    public GameObject NotifSign;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
+            NotifSign.SetActive(true);
             Dialogue.SetActive(true);
         }
     }
@@ -18,6 +20,7 @@ public class MessageAppear : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            NotifSign.SetActive(false);
             Dialogue.SetActive(false);
         }
     }

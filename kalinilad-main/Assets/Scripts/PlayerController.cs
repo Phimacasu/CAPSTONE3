@@ -17,7 +17,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRigidbody;
     [SerializeField] private AudioSource moveSFX;
     [SerializeField] private AudioSource jumpSFX;
-    [SerializeField] private AudioSource ladderSFX;
+    [SerializeField] private AudioSource MetalLadderClimbSFX;
+    ///[SerializeField] private AudioSource WoodLadderClimbSFX;
     [SerializeField] private AudioSource swimSFX;
     [SerializeField] private AudioSource MeleeHurtSFX;
     [SerializeField] private AudioSource ProjHurtSFX;
@@ -108,7 +109,6 @@ public class PlayerController : MonoBehaviour
 
         if (stateIsLaddered && Mathf.Abs(yMove) > 0f)
         {
-            ladderSFX.Play();
             stateIsClimbing = true;
         }
 
@@ -196,10 +196,10 @@ public class PlayerController : MonoBehaviour
         if (!isDialogueActive)
         {
             // Handle player movement
-            moveSFX.Play();
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
+            moveSFX.Play();
             Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * movementSpeed;
             playerRigidbody.velocity = new Vector3(movement.x, playerRigidbody.velocity.y, movement.z);
         }
@@ -223,7 +223,19 @@ public class PlayerController : MonoBehaviour
             rb.useGravity = false;
 
             if (stateCanSwim || stateIsClimbing)
-                rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
+            {
+                if (stateIsClimbing)
+                {
+                    MetalLadderClimbSFX.Play();
+                    rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
+                }
+
+                else if (stateCanSwim)
+                {
+                    swimSFX.Play();
+                    rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
+                }
+            }
             else
                 rb.velocity = new Vector3(rb.velocity.x, Mathf.Clamp(yMove, 0, 1f) * speed, rb.velocity.z);
         }
@@ -237,16 +249,31 @@ public class PlayerController : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
+            MeleeHurtSFX.Play();
             Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
+        if (collision.gameObject.tag == "ProjectileEnemy")
+        {
+            ProjHurtSFX.Play();
+            Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
+            MeleeHurtSFX.Play();
+            Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        if (other.gameObject.tag == "ProjectileEnemy")
+        {
+            ProjHurtSFX.Play();
             Debug.LogError("Hit an enemy! Respawning to latest checkpoint...");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
@@ -254,19 +281,18 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Ladder")
+        if (other.gameObject.tag == "MetalLadder" || other.gameObject.tag == "WoodLadder")
             stateIsLaddered = true;
 
         if (other.gameObject.tag == "Water")
         {
-            swimSFX.Play();
             stateIsWatered = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Ladder")
+        if (other.gameObject.tag == "MetalLadder" || other.gameObject.tag == "WoodLadder")
         {
             stateIsLaddered = false;
             stateIsClimbing = false;

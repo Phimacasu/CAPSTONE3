@@ -5,6 +5,7 @@ using UnityEngine;
 public class SwitchController : MonoBehaviour
 {
     public Sprite newSprite; // The sprite to change to
+    [SerializeField] private AudioSource SwitchActivateSFX;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,7 @@ public class SwitchController : MonoBehaviour
             SpriteRenderer switchRenderer = GetComponent<SpriteRenderer>();
             if (switchRenderer != null)
             {
+                SwitchActivateSFX.Play();
                 switchRenderer.sprite = newSprite;
             }
             // Disable the collider of the switch to prevent multiple collisions
