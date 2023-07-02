@@ -268,6 +268,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SewersFloor6.5 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5439522991284578524, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
+      propertyPath: m_Size.x
+      value: 9.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439522991284578524, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
+      propertyPath: m_Center.x
+      value: 3.14
+      objectReference: {fileID: 0}
     - target: {fileID: 9193172741269593539, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
       propertyPath: m_RootOrder
       value: 197
@@ -278,7 +286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9193172741269593539, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.93781
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9193172741269593539, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17460,7 +17468,7 @@ Transform:
   m_Children:
   - {fileID: 1829986986}
   m_Father: {fileID: 826591668}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &498084304
 PrefabInstance:
@@ -23467,7 +23475,7 @@ Transform:
   - {fileID: 673693318}
   - {fileID: 420030805}
   m_Father: {fileID: 826591668}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &695570720
 GameObject:
@@ -23627,7 +23635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696826922}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 237.95, y: 140.93, z: -1}
+  m_LocalPosition: {x: 238.55, y: 140.93, z: -1.36}
   m_LocalScale: {x: 4.3135996, y: 4.3135996, z: 4.3135996}
   m_Children: []
   m_Father: {fileID: 0}
@@ -27613,12 +27621,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 147700937}
   - {fileID: 693392017}
   - {fileID: 1496749197}
   - {fileID: 1888070420}
   - {fileID: 1703896817}
   - {fileID: 497741196}
-  - {fileID: 147700937}
   m_Father: {fileID: 1866700949}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -52101,7 +52109,7 @@ Transform:
   m_Children:
   - {fileID: 1406337715}
   m_Father: {fileID: 826591668}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1497217165 stripped
 Transform:
@@ -57930,7 +57938,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661298202}
   m_LocalRotation: {x: -0, y: -0, z: 0.13051045, w: 0.991447}
-  m_LocalPosition: {x: 217.5, y: 127.7, z: 0}
+  m_LocalPosition: {x: 215.16, y: 127.7, z: 0}
   m_LocalScale: {x: 4.867998, y: 4.867998, z: 4.867998}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59749,7 +59757,7 @@ Transform:
   - {fileID: 400275784}
   - {fileID: 958680081}
   m_Father: {fileID: 826591668}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1705689749
 GameObject:
@@ -65614,7 +65622,7 @@ Transform:
   - {fileID: 1308739751}
   - {fileID: 947549220}
   m_Father: {fileID: 826591668}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1889687503
 GameObject:
@@ -72503,6 +72511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SewersFloor6.5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3058577487278456898, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9193172741269593539, guid: dbad4842a7f50c14fa58ca247ea1c745, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -74616,7 +74628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3546428775305877292, guid: 8565dd060e3f1304b882941ba4fb4117, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3546428775305877292, guid: 8565dd060e3f1304b882941ba4fb4117, type: 3}
       propertyPath: m_LocalScale.z
@@ -74838,7 +74850,8 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7605607987594679739, guid: 8565dd060e3f1304b882941ba4fb4117, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8565dd060e3f1304b882941ba4fb4117, type: 3}
 --- !u!1001 &3941256060752171861
 PrefabInstance:
