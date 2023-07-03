@@ -20,9 +20,11 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRigidbody;
     [SerializeField] private AudioSource moveSFX;
     [SerializeField] private AudioSource jumpSFX;
-    [SerializeField] private AudioSource MetalLadderClimbSFX;
+    /// <summary>
+    /// [SerializeField] private AudioSource MetalLadderClimbSFX;
+    /// </summary>
     ///[SerializeField] private AudioSource WoodLadderClimbSFX;
-    [SerializeField] private AudioSource swimSFX;
+    ///[SerializeField] private AudioSource swimSFX;
     [SerializeField] private AudioSource MeleeHurtSFX;
     [SerializeField] private AudioSource ProjHurtSFX;
 
@@ -44,8 +46,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Physics.gravity = new Vector3(0, -100.0f, 0);
-        animatorKali = GetComponent<Animator>();
-        Debug.Log("Animator Found");
+        ///animatorKali = GetComponent<Animator>();
+        ////Debug.Log("Animator Found");
 
         Debug.LogWarning(PlayerPrefs.GetInt("Sequence"));
 
@@ -204,15 +206,15 @@ public class PlayerController : MonoBehaviour
             {
                 if (stateIsClimbing)
                 {
-                    MetalLadderClimbSFX.Play();
+                    ///MetalLadderClimbSFX.Play();
                     rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
                 }
 
                 else if (stateCanSwim)
                 {
-                    swimSFX.Play();
+                    ///swimSFX.Play();
                     rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
-                    animatorKali.SetBool("isSwimming", true);
+                    ///animatorKali.SetBool("isSwimming", true);
                 }
             }
             else

@@ -5,16 +5,18 @@ using UnityEngine;
 public class animationStateController : MonoBehaviour
 {
     private Animator animatorKali;
-    private SpriteRenderer renderer;
+    /// <summary>
+    /// private SpriteRenderer renderer;
+    /// </summary>
 
     // Start is called before the first frame update
     void Start()
     {
         // /bool isWalking = false;
-        animatorKali = GetComponent<Animator>();
+        ///animatorKali = GetComponent<Animator>();
         Debug.Log("Animator Found");
 
-        renderer = GetComponent<SpriteRenderer>();
+        ////renderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -26,14 +28,14 @@ public class animationStateController : MonoBehaviour
         
         if (forwardPress || backwardPress)
         {
-            animatorKali.SetBool("isWalking",true);
+            ////animatorKali.SetBool("isWalking",true);
             Debug.Log("Walking");
-            renderer.flipX = true;
+            ////renderer.flipX = true;
         }
 
          if (!forwardPress || !backwardPress)
         {
-            animatorKali.SetBool("isWalking",false);
+            ///animatorKali.SetBool("isWalking",false);
             Debug.Log("Not Walking");
         }
     }

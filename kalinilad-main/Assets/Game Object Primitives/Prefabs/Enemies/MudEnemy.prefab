@@ -40,11 +40,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6241327481238694175, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.017584324
+      value: -0.017614841
       objectReference: {fileID: 0}
     - target: {fileID: -6241327481238694175, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.010619879
+      value: -0.010620117
+      objectReference: {fileID: 0}
+    - target: {fileID: -6241327481238694175, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
+      propertyPath: m_Bounds.m_Extent.x
+      value: 1.657615
       objectReference: {fileID: 0}
     - target: {fileID: -3379182338980231117, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_RootOrder
@@ -92,31 +96,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: 0.014985561
+      value: 0.01487875
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.0022702217
+      value: -0.0022883415
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 5.970015
+      value: 5.9700003
       objectReference: {fileID: 0}
     - target: {fileID: -816389146369581255, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 5.7777305
+      value: 5.7777185
       objectReference: {fileID: 0}
     - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.00009953976
+      value: 0.000022530556
       objectReference: {fileID: 0}
     - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: -0.00060009956
+      value: -0.00056934357
       objectReference: {fileID: 0}
     - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 1.6565301
+      value: 1.6565304
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702433002842315939, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
+      propertyPath: m_Bounds.m_Extent.y
+      value: 2.1006002
       objectReference: {fileID: 0}
     - target: {fileID: 6287557274871143378, guid: 755b95f0ede5dc14a848f2dd5172b9c6, type: 3}
       propertyPath: m_Name
@@ -171,10 +179,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.00001
+  MaxDistance: 0.1
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -207,7 +215,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -247,6 +255,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &6841914837609032926
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3593796093213384429}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec5ae0d14d8cd8d49a8892fbffcc7d7e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1502923949583204819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,24 +295,5 @@ MonoBehaviour:
   - {fileID: 0}
   player: {fileID: 0}
   respawnPoint: {fileID: 0}
-  playerPrefab: {fileID: 0}
+  playerPrefab: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
   moveSFX: {fileID: 442185728586893648}
---- !u!95 &6841914837609032926
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3593796093213384429}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ec5ae0d14d8cd8d49a8892fbffcc7d7e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

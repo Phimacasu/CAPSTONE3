@@ -1436,7 +1436,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -1960,6 +1960,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4518497910696830329, guid: b8852982d38ec7842afce671a71e8420, type: 3}
+      propertyPath: points.Array.data[0]
+      value: 
+      objectReference: {fileID: 1947179348}
+    - target: {fileID: 4518497910696830329, guid: b8852982d38ec7842afce671a71e8420, type: 3}
+      propertyPath: points.Array.data[1]
+      value: 
+      objectReference: {fileID: 1454258189}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8852982d38ec7842afce671a71e8420, type: 3}
 --- !u!1 &119122429 stripped
@@ -2608,11 +2616,19 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 993673255}
+    - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
+      propertyPath: waypoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 1876359672}
+    - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
+      propertyPath: waypoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 778866509}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
 --- !u!4 &161201918 stripped
@@ -3639,7 +3655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3674798148644654614, guid: 367a453f5a67985459760623f1ce83f3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3674798148644654615, guid: 367a453f5a67985459760623f1ce83f3, type: 3}
       propertyPath: m_RootOrder
@@ -4212,7 +4228,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -7566,6 +7582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1263571002}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &360954088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8846,11 +8863,11 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2146341203}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -15070,7 +15087,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -16190,6 +16207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 939215330}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &576849609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16716,7 +16734,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -18471,7 +18489,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -19717,7 +19735,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -20209,7 +20227,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -21124,26 +21142,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8852982d38ec7842afce671a71e8420, type: 3}
---- !u!1 &788300577 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4518497910696830333, guid: b8852982d38ec7842afce671a71e8420, type: 3}
-  m_PrefabInstance: {fileID: 788300576}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &788300578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788300577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cb234d6842d9ec4b9b5550dc52c0318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  startingPoint: 0
-  points: []
 --- !u!1001 &801115294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21245,7 +21243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7431561892618327630, guid: d7ba984a745a00a44bb03732107d7123, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7431561893325346215, guid: d7ba984a745a00a44bb03732107d7123, type: 3}
       propertyPath: m_SizeDelta.x
@@ -21773,7 +21771,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -22281,6 +22279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1174942469}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &843557557
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22592,6 +22591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1340911612}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &860925234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23644,7 +23644,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -24195,7 +24195,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -24333,6 +24333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 127375731}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &963068581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24746,7 +24747,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -25337,7 +25338,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -25572,6 +25573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1009722963}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1039980480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30519,11 +30521,11 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2146341203}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -33553,6 +33555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1879711509}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1172350317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34008,7 +34011,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -35876,6 +35879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 170488519}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1260272984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36483,6 +36487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 670297168}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1271400203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39392,7 +39397,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -39674,7 +39679,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -40621,11 +40626,11 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354733118}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -42393,6 +42398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1483173358}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1497387116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42747,7 +42753,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -44548,6 +44554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1300871862}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1605081039
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46830,7 +46837,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -47972,7 +47979,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -48507,6 +48514,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+--- !u!4 &1770455704 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3365289628300563567, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  m_PrefabInstance: {fileID: 1770455703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1771595048
 GameObject:
   m_ObjectHideFlags: 0
@@ -48729,6 +48741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 1208694234}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  DoorOpenSFX: {fileID: 0}
 --- !u!65 &1787864324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49798,7 +49811,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -51995,11 +52008,11 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 354733118}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -54721,7 +54734,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 
@@ -57195,7 +57208,7 @@ PrefabInstance:
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1770455704}
     - target: {fileID: 7146969449308138674, guid: 0268fa9ba57badf49b32db024f006f0f, type: 3}
       propertyPath: respawnPoint
       value: 

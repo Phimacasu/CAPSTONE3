@@ -9,6 +9,9 @@ public class Collectible : MonoBehaviour
 
     [SerializeField]
     int numberSequence = -1;
+
+    [SerializeField] private AudioSource KeySFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +30,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            KeySFX.Play();
             PlayerPrefs.SetInt("Sequence", numberSequence);
             gameObject.SetActive(false);
         }
