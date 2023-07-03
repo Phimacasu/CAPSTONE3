@@ -4,17 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class BlessingData 
+
+
+public class BlessingData : MonoBehaviour
 {
     public string sceneName;
     public Sprite blessingIcon;
     public string blessingName;
     [TextArea(3, 5)]
     public string blessingDescription;
-}
 
-public class BlessingTree : MonoBehaviour
-{
     public GameObject blessingSlotPrefab;
     public Transform blessingSlotParent;
 
