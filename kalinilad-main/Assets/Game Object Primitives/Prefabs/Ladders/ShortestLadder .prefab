@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1163159575496591799}
   - component: {fileID: 3977419009959634540}
-  - component: {fileID: 321760620389225682}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_16 (1)
   m_TagString: Ladder
@@ -26,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2667738983182383658}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 12.3, z: 0}
+  m_LocalPosition: {x: 0, y: 12.78, z: 0}
   m_LocalScale: {x: 3.6537, y: 3.6537, z: 3.6537}
   m_Children: []
   m_Father: {fileID: 6385101183741247042}
@@ -75,7 +74,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -2386268118866758320, guid: b52f828c948c2524bb67e31dff6958d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 0.98, y: 1.74}
   m_AdaptiveModeThreshold: 0.5
@@ -83,19 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &321760620389225682
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2667738983182383658}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0.00000023841858, z: 0}
 --- !u!1 &5682911403632387808
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,8 +176,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.98000014, y: 3.3, z: 0.20000003}
+  m_Center: {x: 0, y: -0.81, z: 0}
 --- !u!1 &7866418218447660732
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,7 +202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7866418218447660732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.677901, y: -3.1827338, z: -90.786545}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5278668679491659960}

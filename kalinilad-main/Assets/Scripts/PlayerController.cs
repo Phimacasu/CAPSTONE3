@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
 
     public float movementSpeed = 6f;
 
+    private Animator animatorKali;
+
+
     private bool isDialogueActive = false;
     private Rigidbody playerRigidbody;
     [SerializeField] private AudioSource moveSFX;
@@ -41,30 +44,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Physics.gravity = new Vector3(0, -100.0f, 0);
+        animatorKali = GetComponent<Animator>();
+        Debug.Log("Animator Found");
 
         Debug.LogWarning(PlayerPrefs.GetInt("Sequence"));
-
-
-        if (PlayerPrefs.HasKey("Net"))
-            Debug.LogWarning(PlayerPrefs.GetInt("Net"));
-        else
-            Debug.LogWarning("Haven't gotten Net quest.");
-
-        if (PlayerPrefs.HasKey("Lighter"))
-            Debug.LogWarning(PlayerPrefs.GetInt("Lighter"));
-        else
-            Debug.LogWarning("Haven't gotten Lighter quest.");
-
-        if (PlayerPrefs.HasKey("Box"))
-            Debug.LogWarning(PlayerPrefs.GetInt("Box"));
-        else
-            Debug.LogWarning("Haven't gotten Box quest.");
-
-        if (PlayerPrefs.HasKey("Mop"))
-            Debug.LogWarning(PlayerPrefs.GetInt("Mop"));
-        else
-            Debug.LogWarning("Haven't gotten Mop quest.");
-
 
         if (PlayerPrefs.HasKey("SceneSpawn"))
         {
@@ -229,6 +212,7 @@ public class PlayerController : MonoBehaviour
                 {
                     swimSFX.Play();
                     rb.velocity = new Vector3(rb.velocity.x, yMove * speed, rb.velocity.z);
+                    animatorKali.SetBool("isSwimming", true);
                 }
             }
             else
@@ -276,7 +260,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "MetalLadder" || other.gameObject.tag == "WoodLadder")
+        if (other.gameObject.tag == "Ladder")
             stateIsLaddered = true;
 
         if (other.gameObject.tag == "Water")
@@ -287,7 +271,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "MetalLadder" || other.gameObject.tag == "WoodLadder")
+        if (other.gameObject.tag == "Ladder")
         {
             stateIsLaddered = false;
             stateIsClimbing = false;

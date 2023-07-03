@@ -14,7 +14,7 @@ AnimatorStateMachine:
     m_Position: {x: 141.80002, y: 202, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2031957301790004491}
-    m_Position: {x: 180, y: 20, z: 0}
+    m_Position: {x: 140, y: 40, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -238,13 +238,13 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: isWalking
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5

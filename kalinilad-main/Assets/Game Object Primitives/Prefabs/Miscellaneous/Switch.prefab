@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 671123227325866140}
   - component: {fileID: 8119544366748687842}
   - component: {fileID: 2105178064670825009}
+  - component: {fileID: 3292735764305466382}
   m_Layer: 0
   m_Name: Spritesheet_Levels_Interactables_3
   m_TagString: Untagged
@@ -127,3 +128,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.94, y: 1.44, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3292735764305466382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6411616868053077271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26035a3c743da1a4e91933caf0b91f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

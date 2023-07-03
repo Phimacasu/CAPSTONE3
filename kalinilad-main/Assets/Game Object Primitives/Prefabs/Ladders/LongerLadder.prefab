@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2930748818120512675}
   - component: {fileID: 198108638656574996}
-  - component: {fileID: 1301489598394241546}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_16 (4)
   m_TagString: Ladder
@@ -83,19 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1301489598394241546
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700249259178228878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2420584139490982624
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +92,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1492465483303111037}
   - component: {fileID: 3720170721432200870}
-  - component: {fileID: 64472749980226584}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_16 (1)
   m_TagString: Ladder
@@ -179,19 +164,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &64472749980226584
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2420584139490982624}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0.00000023841858, z: 0}
 --- !u!1 &5354731322189784618
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,8 +258,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.98000014, y: 9.78, z: 1}
+  m_Center: {x: 0.01, y: -4.14, z: 0}
 --- !u!1 &5732063807201229209
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +270,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5024395070793278483}
   - component: {fileID: 6138042282072291941}
-  - component: {fileID: 8047001638610995206}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_16 (3)
   m_TagString: Ladder
@@ -371,19 +342,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &8047001638610995206
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5732063807201229209}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7102474114990277750
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +352,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2782695254240075343}
   - component: {fileID: 9039314791194186946}
-  - component: {fileID: 7238667744232404758}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_16 (2)
   m_TagString: Ladder
@@ -467,19 +424,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &7238667744232404758
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7102474114990277750}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7618177121658742390
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7618177121658742390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.3, y: -2.7, z: -87.7333}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5607979041984702578}
@@ -526,7 +470,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4267536071077879817}
   - component: {fileID: 8339668022808926796}
-  - component: {fileID: 7914687658216941798}
   m_Layer: 0
   m_Name: Spritesheet_Outdoors_PropsandPlatforms_16 (5)
   m_TagString: Ladder
@@ -599,16 +542,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &7914687658216941798
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9008912939170269579}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98000014, y: 1.7400002, z: 0.20000003}
-  m_Center: {x: 0, y: 0, z: 0}

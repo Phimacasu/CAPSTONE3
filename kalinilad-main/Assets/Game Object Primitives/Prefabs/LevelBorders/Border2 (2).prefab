@@ -106,7 +106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1662415206863490726}
   - component: {fileID: 1662415206863490904}
-  - component: {fileID: 1662415206863490727}
   m_Layer: 0
   m_Name: Border2 (2)
   m_TagString: Untagged
@@ -179,19 +178,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1662415206863490727
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662415206863490725}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.99, y: 9.63, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1662415207000620033
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,7 +188,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1662415207000620036}
   - component: {fileID: 1662415207000620035}
-  - component: {fileID: 1662415207000620034}
   m_Layer: 0
   m_Name: Border2 (2)
   m_TagString: Untagged
@@ -278,19 +263,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1662415207000620034
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662415207000620033}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.99, y: 8.94, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1662415208054451047
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662415208054450968}
   - component: {fileID: 1662415208054450970}
-  - component: {fileID: 1662415208054450969}
+  - component: {fileID: 4956799922079491175}
   m_Layer: 0
   m_Name: Border2 (1)
   m_TagString: Untagged
@@ -374,7 +346,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1662415208054450969
+--- !u!65 &4956799922079491175
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -385,5 +357,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.99, y: 8.67, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.99, y: 37.1, z: 1}
+  m_Center: {x: 0, y: 13.96, z: 0}
