@@ -13564,6 +13564,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -6.64
       objectReference: {fileID: 0}
+    - target: {fileID: 3036014906598626413, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+      propertyPath: m_TagString
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3064986003590855696, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
       propertyPath: m_Name
       value: Player
@@ -13614,7 +13622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4290239924159006078, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
       propertyPath: field of view
-      value: 29
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4290239924159006078, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
       propertyPath: far clip plane
