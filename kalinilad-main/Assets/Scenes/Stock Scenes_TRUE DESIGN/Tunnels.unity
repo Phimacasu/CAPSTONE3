@@ -6371,8 +6371,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8694010325233979041, guid: 053c8335a0850384c8773d876242c131, type: 3}
+      propertyPath: numberSequence
+      value: 20
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053c8335a0850384c8773d876242c131, type: 3}
+--- !u!1 &199295883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4033330565479284729, guid: 053c8335a0850384c8773d876242c131, type: 3}
+  m_PrefabInstance: {fileID: 199295882}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &206599105
 GameObject:
   m_ObjectHideFlags: 0
@@ -11790,8 +11799,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8694010325233979041, guid: 053c8335a0850384c8773d876242c131, type: 3}
+      propertyPath: numberSequence
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053c8335a0850384c8773d876242c131, type: 3}
+--- !u!1 &349569016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4033330565479284729, guid: 053c8335a0850384c8773d876242c131, type: 3}
+  m_PrefabInstance: {fileID: 349569015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &349832105
 GameObject:
   m_ObjectHideFlags: 0
@@ -15621,11 +15639,7 @@ PrefabInstance:
       objectReference: {fileID: 314852788}
     - target: {fileID: 8487250597015713805, guid: 8d8a718870209574694ea1c24fb51b52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8487250597015713805, guid: 8d8a718870209574694ea1c24fb51b52, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.08
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 8943641930842907588, guid: 8d8a718870209574694ea1c24fb51b52, type: 3}
       propertyPath: m_RootOrder
@@ -25649,7 +25663,7 @@ PrefabInstance:
     - target: {fileID: 100114040771477338, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: objSwitchReliant.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1120452599}
     - target: {fileID: 2815777976150225293, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -29129,8 +29143,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -89.862
       objectReference: {fileID: 0}
+    - target: {fileID: 8694010325233979041, guid: 053c8335a0850384c8773d876242c131, type: 3}
+      propertyPath: numberSequence
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053c8335a0850384c8773d876242c131, type: 3}
+--- !u!1 &859940662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4033330565479284729, guid: 053c8335a0850384c8773d876242c131, type: 3}
+  m_PrefabInstance: {fileID: 859940661}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &860874406
 GameObject:
   m_ObjectHideFlags: 0
@@ -38981,8 +39004,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -89.862
       objectReference: {fileID: 0}
+    - target: {fileID: 8694010325233979041, guid: 053c8335a0850384c8773d876242c131, type: 3}
+      propertyPath: numberSequence
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053c8335a0850384c8773d876242c131, type: 3}
+--- !u!1 &1120452599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4033330565479284729, guid: 053c8335a0850384c8773d876242c131, type: 3}
+  m_PrefabInstance: {fileID: 1120452598}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1121277602
 GameObject:
   m_ObjectHideFlags: 0
@@ -51331,11 +51363,11 @@ PrefabInstance:
     - target: {fileID: 100114040771477338, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: objSwitchReliant.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 859940662}
     - target: {fileID: 100114040771477338, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: objSwitchReliant.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1526704058}
     - target: {fileID: 2815777976150225293, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -53316,8 +53348,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -89.862
       objectReference: {fileID: 0}
+    - target: {fileID: 8694010325233979041, guid: 053c8335a0850384c8773d876242c131, type: 3}
+      propertyPath: numberSequence
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053c8335a0850384c8773d876242c131, type: 3}
+--- !u!1 &1526704058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4033330565479284729, guid: 053c8335a0850384c8773d876242c131, type: 3}
+  m_PrefabInstance: {fileID: 1526704057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1527560098
 GameObject:
   m_ObjectHideFlags: 0
@@ -61172,7 +61213,7 @@ PrefabInstance:
     - target: {fileID: 100114040771477338, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: objSwitchReliant.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 349569016}
     - target: {fileID: 2815777976150225293, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -61794,7 +61835,7 @@ PrefabInstance:
     - target: {fileID: 100114040771477338, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: objSwitchReliant.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 199295883}
     - target: {fileID: 2815777976150225293, guid: 0297fbb8178620847a9cae69ff1c28a8, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
