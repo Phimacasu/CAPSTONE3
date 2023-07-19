@@ -3963,6 +3963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenuV1
       objectReference: {fileID: 0}
+    - target: {fileID: 2358774750139487841, guid: 373c10dfd98e60a40be8f83c672bcdfc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2358774750139487842, guid: 373c10dfd98e60a40be8f83c672bcdfc, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -22894,6 +22898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6530839546581805895, guid: d3fb56700dea0c44f80c179685df1b70, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3fb56700dea0c44f80c179685df1b70, type: 3}
 --- !u!114 &468634287 stripped
@@ -29043,6 +29051,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4290239924159006078, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+      propertyPath: field of view
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 4484052566674783975, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
       propertyPath: m_Size.x
       value: 0.2
@@ -29058,6 +29070,10 @@ PrefabInstance:
     - target: {fileID: 4484052566674783975, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192977273071135387, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+      propertyPath: orthographic size
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
@@ -50406,7 +50422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3674798148644654614, guid: 367a453f5a67985459760623f1ce83f3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3674798148644654615, guid: 367a453f5a67985459760623f1ce83f3, type: 3}
       propertyPath: m_RootOrder
