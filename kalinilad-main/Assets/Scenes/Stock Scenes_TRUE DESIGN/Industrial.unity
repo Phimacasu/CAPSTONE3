@@ -3435,7 +3435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6844,7 +6844,7 @@ PrefabInstance:
     - target: {fileID: 3504091673195412487, guid: 0140dee37c31016418da12363ef19f86, type: 3}
       propertyPath: Dialogue
       value: 
-      objectReference: {fileID: 1718867876}
+      objectReference: {fileID: 0}
     - target: {fileID: 5015912141906601722, guid: 0140dee37c31016418da12363ef19f86, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -39794,6 +39794,147 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8354980535225762863}
     m_Modifications:
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[0].name
+      value: Kali
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[1].name
+      value: Kali
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[3].name
+      value: Kha-Hil
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[4].name
+      value: Kha-Hil
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[5].name
+      value: Kha-Hil
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[6].name
+      value: Kha-Hil
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[7].name
+      value: Kha-Hil
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bb90c255acee7454c91b712f2a5736f7, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d3feafb2847f614fad104237e3bda73, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 144aa74618b85974a9a50f612c2fa8fd, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[3].sprite
+      value: 
+      objectReference: {fileID: -1540666302781282981, guid: 19ba45c5e95754a43a26efd385e3f99f, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[4].sprite
+      value: 
+      objectReference: {fileID: 8325585281765392805, guid: 19ba45c5e95754a43a26efd385e3f99f, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[5].sprite
+      value: 
+      objectReference: {fileID: -7954854455598531661, guid: 19ba45c5e95754a43a26efd385e3f99f, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[6].sprite
+      value: 
+      objectReference: {fileID: -1231070766793885106, guid: 19ba45c5e95754a43a26efd385e3f99f, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: actors.Array.data[7].sprite
+      value: 
+      objectReference: {fileID: -5123380850526711423, guid: 19ba45c5e95754a43a26efd385e3f99f, type: 3}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[0].message
+      value: "You better stop smoking\u2026.. Or else\u2026.. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[1].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[1].message
+      value: Kali stopped midway and saw a giant man holding a big tobacco
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[2].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[2].message
+      value: "I\u2026.uh\u2026. I\u2019m just wondering if\u2026\u2026 you stop smoking?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[3].actorId
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[3].message
+      value: Kha-Hil puffs his cigar and blows his smoke at Kali, making her cough
+        violently
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[4].actorId
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[4].message
+      value: "What\u2019s the matter with you? Don\u2019t you enjoy making smoke
+        too?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[5].message
+      value: What!? I hate it!?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[6].actorId
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[6].message
+      value: "Hate? Aren\u2019t all humans using their cars and their factories to
+        release smoke? Are you sure you\u2019re not one of them?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[7].message
+      value: "So what!? It\u2019s unbearable for me!? Don\u2019t you know that we
+        can get sick!?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[8].actorId
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[8].message
+      value: Kha-Hil was mildly surprised but rather than showing his emotions, he
+        continues to smoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[9].actorId
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: messages.Array.data[9].message
+      value: Do whatever you need to do.
+      objectReference: {fileID: 0}
     - target: {fileID: 2107599139497048208, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
       propertyPath: m_Name
       value: Kha_Hil_Kapre
@@ -39854,6 +39995,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8012699037200588740, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8436661991234973664, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -39864,8 +40009,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8763535679632003094, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8763535679632003094, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: trigger.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763535679632003094, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+      propertyPath: trigger.Array.data[0]
+      value: 
+      objectReference: {fileID: 1351052760}
     - target: {fileID: 9023246562197229795, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -39877,6 +40030,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2136645848157310661, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
   m_PrefabInstance: {fileID: 1351052758}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1351052760 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2024607141684396265, guid: 0190cabffaf164d4888fb1fd6c5c0413, type: 3}
+  m_PrefabInstance: {fileID: 1351052758}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2219078ef9c60994bbb86c34e230daf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1352946176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47940,213 +48104,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &1718867874
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1821954523}
-    m_Modifications:
-    - target: {fileID: 4969227847738882005, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: trigger.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4969227847738882005, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: trigger.Array.data[0]
-      value: 
-      objectReference: {fileID: 1718867877}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[0].name
-      value: Kali
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[1].name
-      value: Kali
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[2].name
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[3].name
-      value: Kha-Hil
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[0].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: bb90c255acee7454c91b712f2a5736f7, type: 3}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[1].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9d3feafb2847f614fad104237e3bda73, type: 3}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[2].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 144aa74618b85974a9a50f612c2fa8fd, type: 3}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: actors.Array.data[3].sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[0].message
-      value: "You better stop smoking\u2026.. Or else\u2026.. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[1].actorId
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[1].message
-      value: Kali stopped midway and saw a giant man holding a big tobacco
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[2].actorId
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[2].message
-      value: "I\u2026.uh\u2026. I\u2019m just wondering if\u2026\u2026 you stop smoking?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[3].actorId
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[3].message
-      value: Kha-Hil puffs his cigar and blows his smoke at Kali, making her cough
-        violently
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[4].actorId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[4].message
-      value: "What\u2019s the matter with you? Don\u2019t you enjoy making smoke
-        too?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[5].actorId
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[5].message
-      value: What!? I hate it!?
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[6].actorId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[6].message
-      value: "Hate? Aren\u2019t all humans using their cars and their factories to
-        release smoke? Are you sure you\u2019re not one of them?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[7].actorId
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[7].message
-      value: "So what!? It\u2019s unbearable for me!? Don\u2019t you know that we
-        can get sick!?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[8].message
-      value: Kha-Hil was mildly surprised but rather than showing his emotions, he
-        continues to smoke
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[9].actorId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: messages.Array.data[9].message
-      value: Do whatever you need to do.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8075864834410796164, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_Name
-      value: CompDialogue (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 12.687
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.080002
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -137.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
---- !u!4 &1718867875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8222593302629503235, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-  m_PrefabInstance: {fileID: 1718867874}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1718867876 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8075864834410796164, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-  m_PrefabInstance: {fileID: 1718867874}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1718867877 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5996146491562094811, guid: 6c264a8f2eef03c41bef50829c200abe, type: 3}
-  m_PrefabInstance: {fileID: 1718867874}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718867876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2219078ef9c60994bbb86c34e230daf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1720476529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51330,7 +51287,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 170830812}
-  - {fileID: 1718867875}
   - {fileID: 189911257}
   m_Father: {fileID: 1526997105}
   m_RootOrder: 1

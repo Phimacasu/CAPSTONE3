@@ -47358,7 +47358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.size
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.size
@@ -47370,47 +47370,91 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[1].name
-      value: Kali
+      value: Tikbalang
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[2].name
-      value: Kali
+      value: Tikbalang
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[3].name
-      value: Kali
+      value: Tikbalang
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[4].name
+      value: Tikbalang
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[5].name
       value: Kali
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[6].name
+      value: Kali
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[7].name
+      value: Kali
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[8].name
+      value: Kali
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 7498909462441796047, guid: 2867cb9ea47f1fe48899e1b976fddc2c, type: 3}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[1].sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bb90c255acee7454c91b712f2a5736f7, type: 3}
+      objectReference: {fileID: 77515962271478910, guid: 2867cb9ea47f1fe48899e1b976fddc2c, type: 3}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[2].sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5b52ddbb2466db34dbbfe6d4952fc353, type: 3}
+      objectReference: {fileID: -9190179647564833741, guid: 2867cb9ea47f1fe48899e1b976fddc2c, type: 3}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[3].sprite
       value: 
-      objectReference: {fileID: 21300000, guid: af7caaba8809d1e429ea6aef2f4608cc, type: 3}
+      objectReference: {fileID: -2934076199632568574, guid: 2867cb9ea47f1fe48899e1b976fddc2c, type: 3}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: actors.Array.data[4].sprite
       value: 
+      objectReference: {fileID: 2703568988603900364, guid: 2867cb9ea47f1fe48899e1b976fddc2c, type: 3}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[5].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bb90c255acee7454c91b712f2a5736f7, type: 3}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[6].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b52ddbb2466db34dbbfe6d4952fc353, type: 3}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[7].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: af7caaba8809d1e429ea6aef2f4608cc, type: 3}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: actors.Array.data[8].sprite
+      value: 
       objectReference: {fileID: 21300000, guid: 9d3feafb2847f614fad104237e3bda73, type: 3}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: messages.Array.data[0].actorId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[0].message
       value: "Oh look\u2026. Another monkey has graced me\u2026.. "
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[1].actorId
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[1].message
       value: 'Who are you calling a monkey, Horse Head! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: messages.Array.data[2].actorId
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[2].message
@@ -47418,7 +47462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[3].actorId
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[3].message
@@ -47430,11 +47474,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[5].actorId
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[5].message
       value: Insult?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: messages.Array.data[6].actorId
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[6].message
@@ -47444,7 +47492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[7].actorId
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[7].message
@@ -47457,11 +47505,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[9].actorId
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[9].message
       value: "I mean\u2026.. We tried to\u2026. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
+      propertyPath: messages.Array.data[10].actorId
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8796218092972590793, guid: f5d420ff5a7a7dc45a254a11d05ade65, type: 3}
       propertyPath: messages.Array.data[10].message
