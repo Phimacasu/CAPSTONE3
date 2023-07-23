@@ -185,6 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8085870085960746596, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
       propertyPath: m_Bounds.m_Center.x
+<<<<<<< HEAD
       value: -0.7420492
       objectReference: {fileID: 0}
     - target: {fileID: 8085870085960746596, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
@@ -198,6 +199,17 @@ PrefabInstance:
     - target: {fileID: 8085870085960746596, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
       propertyPath: m_Bounds.m_Extent.y
       value: 4.0470767
+=======
+      value: -0.7420647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085870085960746596, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
+      propertyPath: m_Bounds.m_Center.y
+      value: 0.017929554
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085870085960746596, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
+      propertyPath: m_Bounds.m_Extent.x
+      value: 3.6570652
+>>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 3945302082241724418, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
@@ -238,16 +250,27 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
+<<<<<<< HEAD
   Loop: 0
+=======
+  Loop: 1
+>>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
+<<<<<<< HEAD
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
+=======
+  MinDistance: 0.00001
+  MaxDistance: 0.1
+  Pan2D: 0
+  rolloffMode: 1
+>>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -280,7 +303,11 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
+<<<<<<< HEAD
       value: 0
+=======
+      value: 0.5
+>>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -361,4 +388,8 @@ MonoBehaviour:
   player: {fileID: 0}
   respawnPoint: {fileID: 0}
   playerPrefab: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+<<<<<<< HEAD
   moveSFX: {fileID: 0}
+=======
+  moveSFX: {fileID: 469704102337941940}
+>>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
