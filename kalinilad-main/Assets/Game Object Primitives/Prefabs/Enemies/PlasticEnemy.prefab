@@ -31,99 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &9074450668285764314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8678356503026764863}
-  - component: {fileID: 9159915741032550302}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8678356503026764863
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9074450668285764314}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.81, z: -4.8}
-  m_LocalScale: {x: 9.5189, y: 9.5189, z: 9.5189}
-  m_Children: []
-  m_Father: {fileID: 6291472262548320972}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &9159915741032550302
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9074450668285764314}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.5226415, b: 0.5226415, a: 1}
-  m_Intensity: 12.9
-  m_Range: 4.77
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 4.17
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &4207697202376862902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -183,6 +90,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 8085870085960746596, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
       propertyPath: m_Bounds.m_Center.x
 <<<<<<< HEAD
@@ -211,6 +119,8 @@ PrefabInstance:
       value: 3.6570652
 >>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of ea1c0a1 (Task 7: Water Swimming Enemies (The Glow Must follow the enemy) (Normal))
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 3945302082241724418, guid: a751f28fd49ee3a41ac500b91de1dd94, type: 3}
 --- !u!1 &8529195262642640957 stripped
@@ -236,6 +146,48 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.4, y: 7.92, z: 1}
   m_Center: {x: 0, y: 8.04, z: 0}
+--- !u!95 &8004032943165683557
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529195262642640957}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 41a5cb1b22e8822428f3d28b44a4ea43, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1281573091805099323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529195262642640957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2abbf013b8098e748963f6b9f1af22a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  chaseSpeed: 5
+  attackRange: 1
+  attackDamage: 1
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
+  moveSFX: {fileID: 0}
 --- !u!82 &469704102337941940
 AudioSource:
   m_ObjectHideFlags: 0
@@ -347,6 +299,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD
 --- !u!95 &8004032943165683557
 Animator:
   serializedVersion: 3
@@ -393,3 +346,5 @@ MonoBehaviour:
 =======
   moveSFX: {fileID: 469704102337941940}
 >>>>>>> 14ba261faa250c2e088ca7595b5bf782ab629171
+=======
+>>>>>>> parent of ea1c0a1 (Task 7: Water Swimming Enemies (The Glow Must follow the enemy) (Normal))
