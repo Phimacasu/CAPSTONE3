@@ -127,7 +127,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 0.2}
+  m_Size: {x: 10, y: 10, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3542980110845676979
 MonoBehaviour:
@@ -156,7 +156,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2d3c8e4e40151334b83a6f3e3987f401, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f43ef9ca59c799c4da713977bd5a0d65, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
