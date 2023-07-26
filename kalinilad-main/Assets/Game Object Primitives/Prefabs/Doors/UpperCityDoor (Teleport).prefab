@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portal: {fileID: 0}
   player: {fileID: 3139488269540047014, guid: 955df842d76a2df4e90ed3f41c33aa9b, type: 3}
-  teleportSFX: {fileID: 5961191424407548250}
+  DoorOpenSFX: {fileID: 5961191424407548250}
 --- !u!82 &5961191424407548250
 AudioSource:
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bc8e4933550ded24396d03bd95286ed1, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
